@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {Game,move} from '../src/core.js';
-const game=()=>{const events=[];const g=new Game((type,data)=>events.push({type,data}));g.start();g.world.walls=[];g.enemies=[];g.player.x=-76;g.player.z=76;return {g,events}};
+const game=()=>{const events=[];const g=new Game((type,data)=>events.push({type,data}));g.start();g.world.walls=[];g.enemies=[];g.bots=[];g.world.exits=[{x:-76,z:76}];g.player.x=-76;g.player.z=76;return {g,events}};
 const advance=(g,n)=>{for(let i=0;i<n;i++)g.update(.05)};
 test('continuous hold needs all three seconds; release and leaving reset progress',()=>{const {g}=game();g.extractHeld=true;advance(g,59);assert.equal(g.running,true);g.extractHeld=false;g.update(.05);assert.equal(g.exitProgress,0);g.extractHeld=true;advance(g,20);g.player.x+=4;g.update(.05);assert.equal(g.exitProgress,0);g.player.x-=4;advance(g,59);assert.equal(g.running,true);g.update(.05);assert.equal(g.running,false)});
 test('control and nonlethal damage do not introduce extraction cancellation rules',()=>{const {g,events}=game();g.extractHeld=true;g.player.stun=4;advance(g,30);g.hurt(g.player,1);advance(g,30);assert.equal(events.filter(e=>e.type==='finish').length,1);assert.equal(events.find(e=>e.type==='finish').data.success,true)});

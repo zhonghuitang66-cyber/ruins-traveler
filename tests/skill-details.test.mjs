@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import {Game} from '../src/core.js';
-function fixture(kind='paladin'){const events=[],g=new Game((type,data)=>events.push({type,data}));g.start(kind);g.world.walls=[];g.enemies=[];g.player.x=0;g.player.z=0;g.aim={x:1,z:0};return {g,events}}
+function fixture(kind='paladin'){const events=[],g=new Game((type,data)=>events.push({type,data}));g.start(kind);g.world.walls=[];g.enemies=[];g.bots=[];g.cool[2]=0;g.player.x=0;g.player.z=0;g.aim={x:1,z:0};return {g,events}}
 function tick(g,seconds){let remaining=seconds;while(remaining>1e-9){const dt=Math.min(.05,remaining);g.update(dt);remaining-=dt}}
 const almost=(a,b)=>assert.ok(Math.abs(a-b)<1e-6,`${a} differs from ${b}`);
 

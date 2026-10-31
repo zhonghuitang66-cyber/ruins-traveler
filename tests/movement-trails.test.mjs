@@ -23,7 +23,7 @@ test('many displacements and speed steps stay bounded in economy mode and reset 
 
 test('real regeneration and wind invisibility movement both produce orange foot traces without speedBuff',async()=>{
  for(const role of ['paladin','archer']){
-  const scene=new Scene(),vfx=await ready(make(scene)),g=new Game((type,data)=>vfx.emit(type,data));g.start(role);g.enemies=[];g.world.walls=[];assert.ok(g.skill(2,{x:0,z:1}));for(let i=0;i<45;i++){g.update(1/60);vfx.update(1/60,{world:g})}assert.equal(g.speedBuff,0);assert.ok(role==='paladin'?g.healing>0:g.invis>0);
+  const scene=new Scene(),vfx=await ready(make(scene)),g=new Game((type,data)=>vfx.emit(type,data));g.start(role);g.enemies=[];g.bots=[];g.cool[2]=0;g.world.walls=[];assert.ok(g.skill(2,{x:0,z:1}));for(let i=0;i<45;i++){g.update(1/60);vfx.update(1/60,{world:g})}assert.equal(g.speedBuff,0);assert.ok(role==='paladin'?g.healing>0:g.invis>0);
   const orange=()=>meshes(scene).filter(m=>m.position.y===.065&&m.name==='vfx-orange-footstep');assert.equal(orange().length,0,'stationary '+role+' must not create orange footsteps');g.input={x:0,z:1};for(let i=0;i<12;i++){g.update(1/60);vfx.update(1/60,{world:g})}assert.ok(orange().length>0,'missing orange movement trace for '+role);vfx.release()
  }
 });

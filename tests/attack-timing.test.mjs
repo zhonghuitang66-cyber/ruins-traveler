@@ -1,6 +1,6 @@
 import test from 'node:test';import assert from 'node:assert/strict';
 import {Game} from '../src/core.js';import {ATTACK_RELEASE_PHASE,attackTiming} from '../src/attack-timing.js';
-function fixture(role='swordsman'){const events=[],g=new Game((type,data)=>events.push({type,data,time:g.time}));g.start(role);g.world.walls=[];g.enemies=[];g.player.x=g.player.z=0;g.aim={x:0,z:1};return {g,events}}
+function fixture(role='swordsman'){const events=[],g=new Game((type,data)=>events.push({type,data,time:g.time}));g.start(role);g.world.walls=[];g.enemies=[];g.bots=[];g.player.x=g.player.z=0;g.aim={x:0,z:1};return {g,events}}
 function tick(g,t){for(let left=t;left>1e-10;){const dt=Math.min(.01,left);g.update(dt);left-=dt}}
 function target(g,x=0,z=1.5){const e=g.enemy({x,z,type:'sword',zone:0});e.stun=99;g.enemies.push(e);return e}
 const near=(x,y)=>assert.ok(Math.abs(x-y)<1e-6,`${x} != ${y}`);
@@ -10,7 +10,7 @@ test('each class starts its animation and CD immediately but only releases at it
  assert.equal(attackTiming('missing',1),null);assert.equal(attackTiming('swordsman',NaN),null)
 });
 test('movement during windup changes actual release origin while locked attack direction cannot overwrite movement aim',()=>{
- const {g,events}=fixture();const delay=g.stats.interval*.72,e=target(g,3*delay,1.5);g.attack(true);g.input={x:1,z:0};tick(g,delay);const impact=events.find(e=>e.type==='attack-impact');near(impact.data.x,g.player.x);near(impact.data.x,3*delay);assert.equal(impact.data.dx,0);assert.equal(impact.data.dz,1);assert.deepEqual(g.aim,{x:1,z:0});assert.ok(e.hp<e.maxHp,'must hit locked +Z from moved origin, not movement +X')
+ const {g,events}=fixture();const delay=g.stats.interval*.5,e=target(g,3*delay,1.5);g.attack(true);g.input={x:1,z:0};tick(g,delay);const impact=events.find(e=>e.type==='attack-impact');near(impact.data.x,g.player.x);near(impact.data.x,3*delay);assert.equal(impact.data.dx,0);assert.equal(impact.data.dz,1);assert.deepEqual(g.aim,{x:1,z:0});assert.ok(e.hp<e.maxHp,'must hit locked +Z from moved origin, not movement +X')
 });
 test('wall visibility is checked at release and melee cannot damage across a newly blocking wall',()=>{
  const {g,events}=fixture(),e=target(g);g.attack(true);g.world.walls=[{x:0,z:.8,w:10,d:.3}];tick(g,g.pendingAttack.impactDelay);assert.equal(e.hp,e.maxHp);assert.equal(events.filter(e=>e.type==='attack-impact').length,1)
@@ -37,7 +37,7 @@ test('thunder dash, marks and charges occur only on release at current wall-clip
  const expired=fixture('paladin');expired.g.thunder=3;expired.g.thunderExpire=.1;expired.g.attack(true);tick(expired.g,.6);assert.equal(expired.g.thunderMarks.length,0);assert.equal(expired.events.filter(e=>e.type==='displacement').length,0)
 });
 test('duration and impact timing lock the start-time haste snapshot even when buffs expire during windup',()=>{
- const {g,events}=fixture('archer');g.speedBuff=.02;g.invis=.02;const duration=.7/1.4/1.3;g.attack(true);near(g.autoCd,duration);const pending=g.pendingAttack;near(pending.impactDelay,duration*.65);tick(g,pending.impactDelay-.001);assert.equal(g.invis,0);assert.equal(g.speedBuff,0);assert.equal(g.shots.length,0);tick(g,.001);near(events.find(e=>e.type==='attack-impact').time,pending.impactAt);near(events.find(e=>e.type==='attack-impact').data.duration,duration);tick(g,duration);g.attack(true);near(g.pendingAttack.duration,.7)
+ const {g,events}=fixture('archer');g.speedBuff=.02;g.invis=.02;const duration=.7/1.4/1.3;g.attack(true);near(g.autoCd,duration);const pending=g.pendingAttack;near(pending.impactDelay,duration*.5);tick(g,pending.impactDelay-.001);assert.equal(g.invis,0);assert.equal(g.speedBuff,0);assert.equal(g.shots.length,0);tick(g,.001);near(events.find(e=>e.type==='attack-impact').time,pending.impactAt);near(events.find(e=>e.type==='attack-impact').data.duration,duration);tick(g,duration);g.attack(true);near(g.pendingAttack.duration,.7)
 });
 test('invalid time steps do not release early and invalid player coordinates cannot lock an attack',()=>{
  const {g,events}=fixture();g.attack(true);for(const dt of [0,-1,NaN,Infinity])g.update(dt);assert.equal(g.time,0);assert.equal(events.filter(e=>e.type==='attack-impact').length,0);g.update(100);near(g.time,.05);assert.ok(g.pendingAttack);const bad=fixture().g;bad.player.x=NaN;assert.equal(bad.attack(true),false);assert.equal(bad.autoCd,0)

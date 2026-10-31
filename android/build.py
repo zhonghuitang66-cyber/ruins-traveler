@@ -2,7 +2,7 @@
 from pathlib import Path
 import os,sys,subprocess,zipfile,shutil,json,hashlib
 android=Path(__file__).resolve().parent;project=android.parent
-workspace=project.parents[1];work=workspace/'work/android-build';work.mkdir(parents=True,exist_ok=True)
+workspace=project.parents[1] if project.parent.name=='outputs' else project;work=workspace/'work/android-build';work.mkdir(parents=True,exist_ok=True)
 sdk=Path(os.getenv('ANDROID_SDK_ROOT',str(Path.home()/'AppData/Local/Android/Sdk')))
 tools=sdk/'build-tools/35.0.1'
 jar=Path(os.getenv('ANDROID_JAR',str(workspace/'work/android-platform/android.jar')))
@@ -25,7 +25,7 @@ for name in ['src','vendor','assets']:
  if (project/name).exists():
   def exclude(directory,names):
    directory=Path(directory)
-   return [n for n in names if n.endswith('.md') or (directory==project/'assets' and n=='references') or (directory==project/'assets/models' and n not in model_allowlist)]
+   return [n for n in names if n.endswith('.md') or (directory==project/'assets' and n=='references') or (directory==project/'assets/portraits' and n in {'swordsman.webp','paladin.webp','archer.webp'}) or (directory==project/'assets/models' and n not in model_allowlist)]
   shutil.copytree(project/name,assets/name,dirs_exist_ok=True,ignore=exclude)
 classes=work/'classes';classes.mkdir(exist_ok=True)
 sources=list((android/'src').rglob('*.java'))

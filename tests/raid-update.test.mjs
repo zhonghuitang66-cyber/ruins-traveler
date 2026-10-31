@@ -30,7 +30,7 @@ test('synthesis reserves only two units, immutable preparation, red cap, empty r
  const fail=prepareSynthesis(g,c,[0,1],{rng:()=>.9});assert.equal(fail.output,null);assert.equal(prepareSynthesis(g,c,[0,0]).ok,false);
 });
 test('potion purchase uses five times price, no live mutation, capacity and balance guards',()=>{
- const g=new Game();g.start();const c=g.world.chests.find(c=>c.type==='apothecary');g.bag=[{id:'coin',n:60}];const r=preparePotionPurchase(g,c,'health');assert.equal(r.ok,true);assert.equal(r.price,60);assert.ok(r.bag.some(r=>r.id==='health'));assert.equal(g.bag[0].n,60);g.bag=[];assert.equal(preparePotionPurchase(g,c,'health').reason,'insufficient_coins');
+ const g=new Game();g.start();const c=g.world.chests.find(c=>c.type==='apothecary');g.bag=[{id:'coin',n:300}];const r=preparePotionPurchase(g,c,'health');assert.equal(r.ok,true);assert.equal(r.price,300);assert.ok(r.bag.some(r=>r.id==='health'));assert.equal(g.bag[0].n,300);g.bag=[];assert.equal(preparePotionPurchase(g,c,'health').reason,'insufficient_coins');
 });
 test('checkpoint serializes active AI references and restores once-consumed craft state',()=>{
  const g=new Game();g.start();g.enemies[0].combatTarget=g.player;g.bots[0].botWindup={target:g.enemies[0]};const c=g.world.chests.find(c=>c.type==='synthesis');c.craft={output:{id:'ruby_heart',n:1},readyAt:3};g.bag=[];
