@@ -1,0 +1,2264 @@
+{
+  "version": 1,
+  "roles": {
+    "swordsman": {
+      "approved": true,
+      "height": 3.375,
+      "anchor": [
+        0.5,
+        0.8
+      ],
+      "clips": {
+        "run": {
+          "directions": {
+            "w": {
+              "approved": true,
+              "url": "swordsman-run-grounded.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "durations": [
+                0.114,
+                0.115,
+                0.114,
+                0.115,
+                0.115,
+                0.114
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "left",
+              "authoredDirection": "w",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ],
+              "height": 3.160506,
+              "sourceFrameIndices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "supportBaselinePx": 640
+            }
+          },
+          "provenance": "Existing paid Meowa directional run, six actual alternating-leg active frames; idle bookends removed; integer foot-baseline stabilization only, no new synthesis or invented limbs."
+        },
+        "attack": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "swordsman-attack-se.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": 8,
+              "durations": [
+                0.115,
+                0.114,
+                0.115,
+                0.114,
+                0.115,
+                0.115,
+                0.114,
+                0.115
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ]
+            }
+          }
+        },
+        "idle": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "swordsman-run-se.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": [
+                0
+              ],
+              "durations": [
+                1
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ]
+            }
+          }
+        },
+        "charge": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "swordsman-attack-se.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": [
+                1
+              ],
+              "durations": [
+                1
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ]
+            }
+          }
+        },
+        "attack1": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "swordsman-attack1.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        },
+        "attack2": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "swordsman-attack2.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        },
+        "attack3": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "swordsman-attack3.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        },
+        "attack4": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "swordsman-attack4.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        }
+      },
+      "sources": {
+        "run": {
+          "job_id": "job_551e35b76a064a2a81209ae72020e734",
+          "unique_frames": 6,
+          "source_direction": "w",
+          "source_sha256": "add4dc4e7c3f92f175cc112bda5cbb809a53a3c3877917de56983cb86c04c3dd",
+          "sha256": "13d7fda95943202cca7f2075316446ab148bcd7cb65b45cc8e3e3f965b3ca2d5",
+          "bytes": 541730,
+          "sourceFrameIndices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "attack": {
+          "job_id": "job_a6dfab66e9544921925ab0a1bb22a876",
+          "unique_frames": 8,
+          "bytes": 746716,
+          "sha256": "be8a67f9b8ca5bf4a7027f36373ca6b6e9d73435e6e5465eb2ae6841035da488",
+          "source_sha256": "5b63fbafcc5e84dac06837c543dc80bc3daa5d7b6d6eb011e0291b9ee52f31a3"
+        },
+        "originalRunBeforeGrounding": {
+          "job_id": "job_030d4de052b243ba9ba627a88e112b34",
+          "unique_frames": 8,
+          "bytes": 840292,
+          "sha256": "d3a0d68ea838e37ed491df0cd543903987505eaa173f0ef83472a1e3e9a00303",
+          "source_sha256": "08461e3f0c26d1c52ac558ffc549c6ae8773153d03125bc8b1facde4f96db260"
+        }
+      },
+      "limitations": [
+        "Idle and charge are static real key poses, not independent generated animations.",
+        "Some source weapon or hair tips leave original canvas; no missing pixels reconstructed.",
+        "Temporary horizontal UV mirror corrects opposite horizontal heading; this mirrors the painted weapon grip and is not a separately authored direction.",
+        "Four combo stages use real generated four-key-pose strips, not motion-model animation or eight-direction attacks; their single painted view can use marked temporary mirroring.",
+        "Run now uses one existing true side-view alternating-leg clip with marked temporary mirror. Original hopping clip is retained only as idle source/history. No new run-generation call; integer support alignment removes source vertical drift; fixed per-clip height matches idle silhouette."
+      ],
+      "foot_pivot_source_px": [
+        320,
+        500
+      ],
+      "process": "Native640 Meowa frames pasted without resampling at(0,140) in640x800 cells; same height3.375/anchor(.5,.8)/world pixels as prior384x480 export. No sharpen or invented detail.",
+      "sourceFacing": "right",
+      "allowTemporaryMirror": true,
+      "directionSources": {
+        "n": {
+          "job_id": "job_c410a6bc148149b7aba59a2b587fcc2c",
+          "source_sha256": "eee96da938b2f01a652ba79cf68c5701ef80f0c31e17238206b0c5e87caf0038",
+          "sha256": "617d4d85e18a2975492e864c6efddec431fb2773bf0d4d483a5c2cbff2126f96",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 543246,
+          "transparent_fraction_range": [
+            0.8463671875,
+            0.86055908203125
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "ne": {
+          "job_id": "job_5bfc34ecfb5e447ab7f325aebffd93c4",
+          "source_sha256": "2abf8f20da5f84ddddb8d9f92f3dff5bc13baa087a154a063bd7f8940e8877e8",
+          "sha256": "07cc3f3eca1b969f66d551b698128d0aa452df1bda939451515d020b1702ece0",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 633966,
+          "transparent_fraction_range": [
+            0.83489990234375,
+            0.8462841796875
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "e": {
+          "job_id": "job_0100570180f84039922bfda667a2f414",
+          "source_sha256": "10d869b4a9cf76d366f598daddde0022742c7364bb36ba26e2fcd33926928df2",
+          "sha256": "0d7d7c3646722904556cd4ae9b66fa105eadcb24723bd2faf1664033f7b59401",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 715688,
+          "transparent_fraction_range": [
+            0.81511474609375,
+            0.83602783203125
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "s": {
+          "job_id": "job_93a89305ffc647ec85aecf988d2f0cd9",
+          "source_sha256": "d6119b5a7358428f9db4e443ca2162efc61fad675b28613fb0f3befdcd6fca33",
+          "sha256": "0e27d0bfd8b19142310ea656336d9040edfa634886765e4aac572991950b2cc8",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 783716,
+          "transparent_fraction_range": [
+            0.799990234375,
+            0.823486328125
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "sw": {
+          "job_id": "job_ef5175eb83f74786926ad9e17a43396b",
+          "source_sha256": "37d91e3a5a539c366fa7f6e057f3acf2e2dd7eb6696ac17b0e1af302f0a28cda",
+          "sha256": "9f84c28b6686f91d07c29d2eced449f99688f4929b54ab480ce870404fd269f0",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 747814,
+          "transparent_fraction_range": [
+            0.8231396484375,
+            0.83245361328125
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "w": {
+          "job_id": "job_551e35b76a064a2a81209ae72020e734",
+          "source_sha256": "3e9499a3c47b2795f82178ab1db674c52cae0ecc0b19d60be6daebb5e15b59d2",
+          "sha256": "add4dc4e7c3f92f175cc112bda5cbb809a53a3c3877917de56983cb86c04c3dd",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 721936,
+          "transparent_fraction_range": [
+            0.8233349609375,
+            0.83739013671875
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "nw": {
+          "job_id": "job_08adf2e1054349f093618f3618359e18",
+          "source_sha256": "9f16bb18fdc71332f803ae5f538307a98d146e1bfd058ea9a2f9496c2379a09d",
+          "sha256": "36cd263c621d617f6a6f557e8a7ce9f606cbcb2e3c8ae4544ce84d5ee184b6b3",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 802738,
+          "transparent_fraction_range": [
+            0.81989990234375,
+            0.84379150390625
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        }
+      },
+      "authoredRunDirections": [
+        "se"
+      ],
+      "runPlaybackCorrection": {
+        "removed_tail_cell": 7,
+        "replacement_real_cell": 0,
+        "source_frame_count": 8,
+        "playback_rate": 1,
+        "note": "Original single-view run restored; final slot reuses its actual first running pose. No generated in-between or speed reduction."
+      },
+      "comboSources": {
+        "attack1": {
+          "job_id": "job_a236d20eefb9467680926fa47739cc47",
+          "source_sha256": "084c7d0f1ce70c0aca6199959757b2740a9ef1e4e0fb81bb0fa4c9846b2b5004",
+          "sha256": "d6a2ff12f16868597611b1a84ac027c95c2fa15a20cc7d50e1705795625b8fe7",
+          "bytes": 644348,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                16,
+                127,
+                462,
+                482
+              ],
+              "source_foot_pivot": [
+                276.40999211097875,
+                479
+              ],
+              "source_scale": 1,
+              "placement": [
+                252,
+                288
+              ]
+            },
+            {
+              "source_bounds": [
+                438,
+                126,
+                937,
+                488
+              ],
+              "source_foot_pivot": [
+                709.7478982455525,
+                485
+              ],
+              "source_scale": 1,
+              "placement": [
+                240,
+                281
+              ]
+            },
+            {
+              "source_bounds": [
+                964,
+                126,
+                1602,
+                488
+              ],
+              "source_foot_pivot": [
+                1157.7475658791316,
+                485
+              ],
+              "source_scale": 1,
+              "placement": [
+                318,
+                281
+              ]
+            },
+            {
+              "source_bounds": [
+                1575,
+                129,
+                2020,
+                489
+              ],
+              "source_foot_pivot": [
+                1782.8381668363709,
+                486
+              ],
+              "source_scale": 1,
+              "placement": [
+                304,
+                283
+              ]
+            }
+          ]
+        },
+        "attack2": {
+          "job_id": "job_a236d20eefb9467680926fa47739cc47",
+          "source_sha256": "084c7d0f1ce70c0aca6199959757b2740a9ef1e4e0fb81bb0fa4c9846b2b5004",
+          "sha256": "65db596d8b742a3d5845939081bfe99ee8af5cbf1e74313d62446f6f92e73cf4",
+          "bytes": 650644,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                39,
+                599,
+                482,
+                958
+              ],
+              "source_foot_pivot": [
+                259.2062816261679,
+                955
+              ],
+              "source_scale": 1,
+              "placement": [
+                292,
+                284
+              ]
+            },
+            {
+              "source_bounds": [
+                460,
+                595,
+                913,
+                959
+              ],
+              "source_foot_pivot": [
+                709.2650441051215,
+                956
+              ],
+              "source_scale": 1,
+              "placement": [
+                263,
+                279
+              ]
+            },
+            {
+              "source_bounds": [
+                899,
+                598,
+                1495,
+                959
+              ],
+              "source_foot_pivot": [
+                1263.651010154055,
+                956
+              ],
+              "source_scale": 1,
+              "placement": [
+                147,
+                282
+              ]
+            },
+            {
+              "source_bounds": [
+                1523,
+                596,
+                2033,
+                959
+              ],
+              "source_foot_pivot": [
+                1737.8220458075027,
+                956
+              ],
+              "source_scale": 1,
+              "placement": [
+                297,
+                280
+              ]
+            }
+          ]
+        },
+        "attack3": {
+          "job_id": "job_a236d20eefb9467680926fa47739cc47",
+          "source_sha256": "084c7d0f1ce70c0aca6199959757b2740a9ef1e4e0fb81bb0fa4c9846b2b5004",
+          "sha256": "7c86597d31c541d82948535866139d77ee8faa6fe319f86bf345101f1a8da354",
+          "bytes": 600248,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                15,
+                1107,
+                496,
+                1424
+              ],
+              "source_foot_pivot": [
+                300.4146659697817,
+                1421
+              ],
+              "source_scale": 1,
+              "placement": [
+                227,
+                326
+              ]
+            },
+            {
+              "source_bounds": [
+                537,
+                1073,
+                1089,
+                1426
+              ],
+              "source_foot_pivot": [
+                750.863409560352,
+                1423
+              ],
+              "source_scale": 1,
+              "placement": [
+                298,
+                290
+              ]
+            },
+            {
+              "source_bounds": [
+                1031,
+                1094,
+                1610,
+                1426
+              ],
+              "source_foot_pivot": [
+                1358.563352832314,
+                1423
+              ],
+              "source_scale": 1,
+              "placement": [
+                184,
+                311
+              ]
+            },
+            {
+              "source_bounds": [
+                1576,
+                1056,
+                2029,
+                1426
+              ],
+              "source_foot_pivot": [
+                1770.2766107841564,
+                1423
+              ],
+              "source_scale": 1,
+              "placement": [
+                318,
+                273
+              ]
+            }
+          ]
+        },
+        "attack4": {
+          "job_id": "job_e8cfa541b1ac4d8bba4657b8f515d93b",
+          "source_sha256": "cd451ea5f88bd8f1b02ba97d8f9b5b5532aee5197a1203185263d32adcc37b54",
+          "sha256": "50785c90567be342f473e121950fe7ea677d5a9ec9e756d2cf4d30cad312f0a4",
+          "bytes": 654462,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                21,
+                174,
+                921,
+                932
+              ],
+              "source_foot_pivot": [
+                587.2240465277832,
+                929
+              ],
+              "source_scale": 0.5,
+              "placement": [
+                229,
+                262
+              ]
+            },
+            {
+              "source_bounds": [
+                974,
+                166,
+                2033,
+                959
+              ],
+              "source_foot_pivot": [
+                1508.8401825730164,
+                957
+              ],
+              "source_scale": 0.5,
+              "placement": [
+                245,
+                244
+              ]
+            },
+            {
+              "source_bounds": [
+                0,
+                1099,
+                1189,
+                1846
+              ],
+              "source_foot_pivot": [
+                454.5275366093536,
+                1843
+              ],
+              "source_scale": 0.5,
+              "placement": [
+                285,
+                268
+              ]
+            },
+            {
+              "source_bounds": [
+                1128,
+                1193,
+                2048,
+                1853
+              ],
+              "source_foot_pivot": [
+                1655.9057290924316,
+                1850
+              ],
+              "source_scale": 0.5,
+              "placement": [
+                248,
+                312
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "paladin": {
+      "approved": true,
+      "height": 3.375,
+      "anchor": [
+        0.5,
+        0.8
+      ],
+      "clips": {
+        "run": {
+          "directions": {
+            "e": {
+              "approved": true,
+              "url": "paladin-run-grounded.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "durations": [
+                0.114,
+                0.115,
+                0.114,
+                0.115,
+                0.115,
+                0.114
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "e",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ],
+              "height": 3.624218,
+              "sourceFrameIndices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "supportBaselinePx": 640
+            }
+          },
+          "provenance": "Existing paid Meowa directional run, six actual alternating-leg active frames; idle bookends removed; integer foot-baseline stabilization only, no new synthesis or invented limbs."
+        },
+        "attack": {
+          "directions": {
+            "sw": {
+              "approved": true,
+              "url": "paladin-attack-se.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": 8,
+              "durations": [
+                0.115,
+                0.114,
+                0.115,
+                0.114,
+                0.115,
+                0.115,
+                0.114,
+                0.115
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "left",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ]
+            }
+          }
+        },
+        "idle": {
+          "directions": {
+            "sw": {
+              "approved": true,
+              "url": "paladin-run-se.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": [
+                0
+              ],
+              "durations": [
+                1
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "left",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ]
+            }
+          }
+        },
+        "charge": {
+          "directions": {
+            "sw": {
+              "approved": true,
+              "url": "paladin-attack-se.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": [
+                1
+              ],
+              "durations": [
+                1
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "left",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ]
+            }
+          }
+        },
+        "attack1": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "paladin-attack1.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        },
+        "attack2": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "paladin-attack2.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        },
+        "attack3": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "paladin-attack3.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        },
+        "attack4": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "paladin-attack4.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        }
+      },
+      "sources": {
+        "run": {
+          "job_id": "job_4710b3275d0a43529138f66f08aa8ebc",
+          "unique_frames": 6,
+          "source_direction": "e",
+          "source_sha256": "9cb817d659d8ad01de8cf8c8f8b84f0c2f2c04b3950d38683451823031b9e88c",
+          "sha256": "acb90cd26ee7ad85baaf85652654e9aee5e94abc1d2dd936405dfc42d348365c",
+          "bytes": 543400,
+          "sourceFrameIndices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "attack": {
+          "job_id": "job_2ee1a23dbfc54b37810379db084b4982",
+          "unique_frames": 8,
+          "bytes": 971094,
+          "sha256": "4a7fb05f28c5928eb83356388196973405db22797cb6970bbe34de7d4182564b",
+          "source_sha256": "3d8ca34968edc6c8a7b5f889c552aaa16c7e72adaf92dab6f66817b674ff9edd"
+        },
+        "originalRunBeforeGrounding": {
+          "job_id": "job_660fdc5bba884e2898c3a3cd77e522b4",
+          "unique_frames": 8,
+          "bytes": 1033492,
+          "sha256": "b3f70e0a13dd57fdd5b088bf494eb0971e9f3f699b6127fde511b354166d8d1f",
+          "source_sha256": "1ebba597f21f4a9c1fa7eb0791772614c673703d70ed08267a4c6f895d013562"
+        }
+      },
+      "limitations": [
+        "Idle and charge are static real key poses, not independent generated animations.",
+        "Some source weapon or hair tips leave original canvas; no missing pixels reconstructed.",
+        "Attack includes generator-baked blue weapon arc despite requested no spell effect.",
+        "Temporary horizontal UV mirror corrects opposite horizontal heading; this mirrors the painted weapon grip and is not a separately authored direction.",
+        "Four combo stages use real generated four-key-pose strips, not motion-model animation or eight-direction attacks; their single painted view can use marked temporary mirroring.",
+        "Run now uses one existing true side-view alternating-leg clip with marked temporary mirror. Original hopping clip is retained only as idle source/history. No new run-generation call; integer support alignment removes source vertical drift; fixed per-clip height matches idle silhouette."
+      ],
+      "foot_pivot_source_px": [
+        320,
+        500
+      ],
+      "process": "Native640 Meowa frames pasted without resampling at(0,140) in640x800 cells; same height3.375/anchor(.5,.8)/world pixels as prior384x480 export. No sharpen or invented detail.",
+      "sourceFacing": "left",
+      "allowTemporaryMirror": true,
+      "directionSources": {
+        "ne": {
+          "job_id": "job_1626261bd70c493683fe2c483bfdf1b8",
+          "source_sha256": "36371a84d366d714f6df5cbac41710e064b4cacb704198529e76903a6519c24b",
+          "sha256": "434a0f87dba0f571b52f31a76d76a5f621ec3609baf3f2cf24a7e63f3512f9f8",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 731016,
+          "transparent_fraction_range": [
+            0.82728515625,
+            0.8451611328125
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "e": {
+          "job_id": "job_4710b3275d0a43529138f66f08aa8ebc",
+          "source_sha256": "6ebb159dbcff87053f5a2e27ea6c90fc813811a2b89a0c3dc4ee1a899b6758ed",
+          "sha256": "9cb817d659d8ad01de8cf8c8f8b84f0c2f2c04b3950d38683451823031b9e88c",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 716198,
+          "transparent_fraction_range": [
+            0.83739990234375,
+            0.85194580078125
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "se": {
+          "job_id": "job_31ad0d3440444796882250b9fc35a52b",
+          "source_sha256": "a298e1ad46537209112de2a03ffe723417ec9c27571d083b6e203d46d6fa2e46",
+          "sha256": "b3348b3171ee24fedded1bf46d27b0e6cbf30ea0a9ccf3664331e07faf99557f",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 713934,
+          "transparent_fraction_range": [
+            0.84189697265625,
+            0.85158935546875
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500).",
+          "direction_quality": "Side-view seed makes an actual turn toward front diagonal; angular pose approximate, not a mirrored view.",
+          "runtime_filename": "paladin-run-se-authored.webp"
+        },
+        "w": {
+          "job_id": "job_fce00d2f9db142049afb6e7f7b3bc130",
+          "source_sha256": "03c2abcedc73297e9ad8b2d7a6ee083b2626c81e18daff5b0bdbaa1d8a0133ef",
+          "sha256": "426c5c6ceec5e268b4bf93cbeb47f87c18601aa32365914c04e3e76fc541998a",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 712446,
+          "transparent_fraction_range": [
+            0.8361865234375,
+            0.85101318359375
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "nw": {
+          "job_id": "job_4edb58af6e7e4d9186349665817d1ff7",
+          "source_sha256": "14e9306c2aa943e897eba12157b618d35acd95c6764e27d9e44deac6a1813b86",
+          "sha256": "8d07c30d635a2edf649d05f0da669be096e5133bcf7325f55ca0d124be79a600",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 941300,
+          "transparent_fraction_range": [
+            0.79346923828125,
+            0.819169921875
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        }
+      },
+      "authoredRunDirections": [
+        "sw"
+      ],
+      "runPlaybackCorrection": {
+        "removed_tail_cell": 7,
+        "replacement_real_cell": 0,
+        "source_frame_count": 8,
+        "playback_rate": 1,
+        "note": "Original single-view run restored; final slot reuses its actual first running pose. No generated in-between or speed reduction."
+      },
+      "comboSources": {
+        "attack1": {
+          "job_id": "job_8b6d7137e5de430b854ea0b1f2deb479",
+          "source_sha256": "90e78d7b4f3d47a8891af5cc004a66136758651978b1ad33d3751bf2a2b31690",
+          "sha256": "60723528255737271389d6fd5ea811a4711bf5d18b1a7d5f6e3061afbc78516f",
+          "bytes": 725438,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                26,
+                101,
+                475,
+                488
+              ],
+              "source_foot_pivot": [
+                238.44366333736423,
+                485
+              ],
+              "source_scale": 1,
+              "placement": [
+                300,
+                256
+              ]
+            },
+            {
+              "source_bounds": [
+                524,
+                57,
+                971,
+                489
+              ],
+              "source_foot_pivot": [
+                792.1810179113547,
+                486
+              ],
+              "source_scale": 1,
+              "placement": [
+                244,
+                211
+              ]
+            },
+            {
+              "source_bounds": [
+                1019,
+                58,
+                1576,
+                490
+              ],
+              "source_foot_pivot": [
+                1223.627002257315,
+                487
+              ],
+              "source_scale": 1,
+              "placement": [
+                307,
+                211
+              ]
+            },
+            {
+              "source_bounds": [
+                1590,
+                60,
+                2022,
+                490
+              ],
+              "source_foot_pivot": [
+                1816.1057665244828,
+                487
+              ],
+              "source_scale": 1,
+              "placement": [
+                286,
+                213
+              ]
+            }
+          ]
+        },
+        "attack2": {
+          "job_id": "job_8b6d7137e5de430b854ea0b1f2deb479",
+          "source_sha256": "90e78d7b4f3d47a8891af5cc004a66136758651978b1ad33d3751bf2a2b31690",
+          "sha256": "87e459c2b25715368768490ec7b2674d6bed30f545b10917edbe99920e583cb2",
+          "bytes": 679980,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                37,
+                587,
+                461,
+                997
+              ],
+              "source_foot_pivot": [
+                256.29635155242624,
+                994
+              ],
+              "source_scale": 1,
+              "placement": [
+                293,
+                233
+              ]
+            },
+            {
+              "source_bounds": [
+                485,
+                583,
+                972,
+                997
+              ],
+              "source_foot_pivot": [
+                806.926129618226,
+                994
+              ],
+              "source_scale": 1,
+              "placement": [
+                190,
+                229
+              ]
+            },
+            {
+              "source_bounds": [
+                1001,
+                583,
+                1548,
+                997
+              ],
+              "source_foot_pivot": [
+                1354.8508746639525,
+                994
+              ],
+              "source_scale": 1,
+              "placement": [
+                158,
+                229
+              ]
+            },
+            {
+              "source_bounds": [
+                1635,
+                587,
+                2023,
+                997
+              ],
+              "source_foot_pivot": [
+                1788.677725710517,
+                994
+              ],
+              "source_scale": 1,
+              "placement": [
+                358,
+                233
+              ]
+            }
+          ]
+        },
+        "attack3": {
+          "job_id": "job_8b6d7137e5de430b854ea0b1f2deb479",
+          "source_sha256": "90e78d7b4f3d47a8891af5cc004a66136758651978b1ad33d3751bf2a2b31690",
+          "sha256": "b4630a2276ba0d156893cfb46a94edc1fc574cd857ef803804561c63a09a02da",
+          "bytes": 696218,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                23,
+                1090,
+                476,
+                1475
+              ],
+              "source_foot_pivot": [
+                301.80315462851235,
+                1473
+              ],
+              "source_scale": 1,
+              "placement": [
+                233,
+                257
+              ]
+            },
+            {
+              "source_bounds": [
+                527,
+                1072,
+                960,
+                1476
+              ],
+              "source_foot_pivot": [
+                754.3849365090001,
+                1473
+              ],
+              "source_scale": 1,
+              "placement": [
+                285,
+                239
+              ]
+            },
+            {
+              "source_bounds": [
+                1020,
+                1086,
+                1590,
+                1477
+              ],
+              "source_foot_pivot": [
+                1284.367476575836,
+                1474
+              ],
+              "source_scale": 1,
+              "placement": [
+                248,
+                252
+              ]
+            },
+            {
+              "source_bounds": [
+                1629,
+                1071,
+                2029,
+                1481
+              ],
+              "source_foot_pivot": [
+                1791.6419007970883,
+                1478
+              ],
+              "source_scale": 1,
+              "placement": [
+                349,
+                233
+              ]
+            }
+          ]
+        },
+        "attack4": {
+          "job_id": "job_8b6d7137e5de430b854ea0b1f2deb479",
+          "source_sha256": "90e78d7b4f3d47a8891af5cc004a66136758651978b1ad33d3751bf2a2b31690",
+          "sha256": "d5762cc76a45e25421a59fa79cc65484cbbca92cfba6f321cf2f509a2e46fa11",
+          "bytes": 748484,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                33,
+                1569,
+                481,
+                1972
+              ],
+              "source_foot_pivot": [
+                259.5261385819715,
+                1969
+              ],
+              "source_scale": 1,
+              "placement": [
+                285,
+                240
+              ]
+            },
+            {
+              "source_bounds": [
+                525,
+                1556,
+                1009,
+                1972
+              ],
+              "source_foot_pivot": [
+                795.6334309361127,
+                1969
+              ],
+              "source_scale": 1,
+              "placement": [
+                241,
+                227
+              ]
+            },
+            {
+              "source_bounds": [
+                1033,
+                1552,
+                1582,
+                1972
+              ],
+              "source_foot_pivot": [
+                1259.2264609697731,
+                1969
+              ],
+              "source_scale": 1,
+              "placement": [
+                286,
+                223
+              ]
+            },
+            {
+              "source_bounds": [
+                1603,
+                1570,
+                2023,
+                1972
+              ],
+              "source_foot_pivot": [
+                1798.977283409782,
+                1970
+              ],
+              "source_scale": 1,
+              "placement": [
+                316,
+                240
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "archer": {
+      "approved": true,
+      "height": 3.375,
+      "anchor": [
+        0.5,
+        0.8
+      ],
+      "clips": {
+        "run": {
+          "directions": {
+            "w": {
+              "approved": true,
+              "url": "archer-run-grounded.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "durations": [
+                0.114,
+                0.115,
+                0.114,
+                0.115,
+                0.115,
+                0.114
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "left",
+              "authoredDirection": "w",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ],
+              "height": 3.514175,
+              "sourceFrameIndices": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "supportBaselinePx": 640
+            }
+          },
+          "provenance": "Existing paid Meowa directional run, six actual alternating-leg active frames; idle bookends removed; integer foot-baseline stabilization only, no new synthesis or invented limbs."
+        },
+        "attack": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "archer-attack-se.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": 8,
+              "durations": [
+                0.115,
+                0.114,
+                0.115,
+                0.114,
+                0.115,
+                0.115,
+                0.114,
+                0.115
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ]
+            }
+          }
+        },
+        "idle": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "archer-run-se.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": [
+                0
+              ],
+              "durations": [
+                1
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ]
+            }
+          }
+        },
+        "charge": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "archer-attack-se.webp",
+              "columns": 4,
+              "rows": 2,
+              "frames": [
+                1
+              ],
+              "durations": [
+                1
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "sourceFrameSize": [
+                640,
+                640
+              ],
+              "cellSize": [
+                640,
+                800
+              ]
+            }
+          }
+        },
+        "attack1": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "archer-attack1.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        },
+        "attack2": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "archer-attack2.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        },
+        "attack3": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "archer-attack3.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        },
+        "attack4": {
+          "directions": {
+            "se": {
+              "approved": true,
+              "url": "archer-attack4.webp",
+              "columns": 4,
+              "rows": 1,
+              "frames": 4,
+              "durations": [
+                0.18,
+                0.1,
+                0.14,
+                0.16
+              ],
+              "anchor": [
+                0.5,
+                0.8
+              ],
+              "sourceFacing": "right",
+              "authoredDirection": "se"
+            }
+          },
+          "cue": 0.5,
+          "provenance": "Meowa generated four sequential key poses, not a full motion-model animation job.",
+          "contactFrame": 2
+        }
+      },
+      "sources": {
+        "run": {
+          "job_id": "job_8053504f2f8642f380119629d8f9bcc0",
+          "unique_frames": 6,
+          "source_direction": "w",
+          "source_sha256": "fe3166e4f8024be35a7f498f09c6443bade3f6bc95305eda1e9d7a8e9447474c",
+          "sha256": "f2c6d99d03e14b3c4a1c76235b1df9ec4634e3ee96a788981af98aeef942f080",
+          "bytes": 458728,
+          "sourceFrameIndices": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "attack": {
+          "job_id": "job_d2f569582dd24f24b97596ec4fc55e13",
+          "unique_frames": 8,
+          "bytes": 947484,
+          "sha256": "7678bb439ab2f62e32e45db62d8ce14f10ffb28e699e1daad7cf66604f84dde0",
+          "source_sha256": "35a0e90b016f498833f1dd80aa65aee7fc44b345cc24c8925956468e8cf0e5b3"
+        },
+        "originalRunBeforeGrounding": {
+          "job_id": "job_3c99504186854583a440139f1aca85d7",
+          "unique_frames": 8,
+          "bytes": 835906,
+          "sha256": "447bc11e70cbfb4e2a710ba15f7c9b5f9e847e3c7ec91fbc1330ea0438be4c2f",
+          "source_sha256": "13f36f31afa45fb9c70cb91a1525946d735af880e336a0b76b38b6a81e989753"
+        }
+      },
+      "limitations": [
+        "Idle and charge are static real key poses, not independent generated animations.",
+        "Some source weapon or hair tips leave original canvas; no missing pixels reconstructed.",
+        "Temporary horizontal UV mirror corrects opposite horizontal heading; this mirrors the painted weapon grip and is not a separately authored direction.",
+        "Four combo stages use real generated four-key-pose strips, not motion-model animation or eight-direction attacks; their single painted view can use marked temporary mirroring.",
+        "Run now uses one existing true side-view alternating-leg clip with marked temporary mirror. Original hopping clip is retained only as idle source/history. No new run-generation call; integer support alignment removes source vertical drift; fixed per-clip height matches idle silhouette."
+      ],
+      "foot_pivot_source_px": [
+        320,
+        500
+      ],
+      "process": "Native640 Meowa frames pasted without resampling at(0,140) in640x800 cells; same height3.375/anchor(.5,.8)/world pixels as prior384x480 export. No sharpen or invented detail.",
+      "sourceFacing": "right",
+      "allowTemporaryMirror": true,
+      "directionSources": {
+        "n": {
+          "job_id": "job_5108f1d34c9845e6bd2f4f9f14556460",
+          "source_sha256": "da33459f8cf97724aa2dd4e297c46981a7c86ecf08ba6672eab642dcd471bad7",
+          "sha256": "d7205eb8449255fe5856bfce6b81af8b326a341861a4f715a95ffe094c82039a",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 526868,
+          "transparent_fraction_range": [
+            0.821494140625,
+            0.847685546875
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "ne": {
+          "job_id": "job_3f5abf7b582e48c1a0639559cb721ab0",
+          "source_sha256": "f3ffda033b7fcebfde802aec95c780fc85a56cd688783a5eb47e2e489d92180e",
+          "sha256": "1f80365adc09c20118414eb48554199061b9ec592751ffdc73cd3551113d3fb1",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 596708,
+          "transparent_fraction_range": [
+            0.83436767578125,
+            0.84802734375
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "e": {
+          "job_id": "job_7faa149790eb4230b16ecd3ab3acb0bb",
+          "source_sha256": "a00a1d1d91e7ec55a5bf9620955ffa26f9af477fdcc3f37e04cc9c5a2ad82af3",
+          "sha256": "1dc157e2a0509ba3d699e95879aeecfbc5cbb9297062726592b666bd6aa56a70",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 513578,
+          "transparent_fraction_range": [
+            0.82451904296875,
+            0.85825927734375
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "s": {
+          "job_id": "job_cdbdacccea184eafa47188447f286bfb",
+          "source_sha256": "5af85bb0515e5f521fac760e29b7ccd6b8097a6a91583950f7ab8916b9758056",
+          "sha256": "94827031cf2e77018360837528e77074373fc4ab245a7b408f0f8135611dcaf0",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 649430,
+          "transparent_fraction_range": [
+            0.81863525390625,
+            0.84247802734375
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "sw": {
+          "job_id": "job_adcc220eb67441ba8c4ce8e36cbdeab6",
+          "source_sha256": "992e2ac2a3e919914a5796cf757d2b1ed3a4b8fd5fb231205b17cc77230c4954",
+          "sha256": "dac31733b33236eb9cd30edfe3160c86c83c5b588d4a6e1524bd4f44ccad3fe7",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 576006,
+          "transparent_fraction_range": [
+            0.83454833984375,
+            0.8599462890625
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500).",
+          "direction_quality": "Side-view seed makes an actual turn toward front diagonal; angular pose approximate, not a mirrored view."
+        },
+        "w": {
+          "job_id": "job_8053504f2f8642f380119629d8f9bcc0",
+          "source_sha256": "e57ceb3f77605d02b1be783b386ebf28e3ca7ef046399cd9e096ff48f5fb5dfa",
+          "sha256": "fe3166e4f8024be35a7f498f09c6443bade3f6bc95305eda1e9d7a8e9447474c",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 611730,
+          "transparent_fraction_range": [
+            0.8350341796875,
+            0.8608154296875
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        },
+        "nw": {
+          "job_id": "job_f53d6f1faafe43b6856a504b2ed5c827",
+          "source_sha256": "340ef095e65284f4d4b0b9c002f50124e6fa038c0cd2ff12a62976dc28a70c12",
+          "sha256": "103c38293ebe457226437041edd5813cf6330e3e283c7c55c81d393ec733c58e",
+          "unique_frames": 8,
+          "source_size": [
+            640,
+            640
+          ],
+          "cell_size": [
+            640,
+            800
+          ],
+          "bytes": 781806,
+          "transparent_fraction_range": [
+            0.79815185546875,
+            0.81588623046875
+          ],
+          "process": "Real single-actor Meowa480P8 frames; local per-frame background matte (magenta chroma, or white border-flood if service changed palette); no resize; complete source at(0,140); fixed source foot(320,500)."
+        }
+      },
+      "authoredRunDirections": [
+        "se"
+      ],
+      "runPlaybackCorrection": {
+        "removed_tail_cell": 7,
+        "replacement_real_cell": 0,
+        "source_frame_count": 8,
+        "playback_rate": 1,
+        "note": "Original single-view run restored; final slot reuses its actual first running pose. No generated in-between or speed reduction."
+      },
+      "comboSources": {
+        "attack1": {
+          "job_id": "job_75e4d58525f1405dbaa889d185ed4cff",
+          "source_sha256": "dc4627b41611fd011feb5663cd715bedfe5d46ca2170ac8933339749ae7e1767",
+          "sha256": "caecba6b1a6074700584ab5179d6bcbd18ec424a3cd7f598121dbb9482e36b76",
+          "bytes": 658510,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                22,
+                109,
+                496,
+                448
+              ],
+              "source_foot_pivot": [
+                271.1544276077972,
+                445
+              ],
+              "source_scale": 1,
+              "placement": [
+                263,
+                304
+              ]
+            },
+            {
+              "source_bounds": [
+                521,
+                40,
+                980,
+                444
+              ],
+              "source_foot_pivot": [
+                748.7050552481383,
+                441
+              ],
+              "source_scale": 1,
+              "placement": [
+                284,
+                239
+              ]
+            },
+            {
+              "source_bounds": [
+                1005,
+                33,
+                1550,
+                445
+              ],
+              "source_foot_pivot": [
+                1233.6616637398527,
+                442
+              ],
+              "source_scale": 1,
+              "placement": [
+                283,
+                231
+              ]
+            },
+            {
+              "source_bounds": [
+                1570,
+                84,
+                2038,
+                448
+              ],
+              "source_foot_pivot": [
+                1806.3555759012422,
+                446
+              ],
+              "source_scale": 1,
+              "placement": [
+                276,
+                278
+              ]
+            }
+          ]
+        },
+        "attack2": {
+          "job_id": "job_75e4d58525f1405dbaa889d185ed4cff",
+          "source_sha256": "dc4627b41611fd011feb5663cd715bedfe5d46ca2170ac8933339749ae7e1767",
+          "sha256": "90f25b6267d663ec9533fe7a8ece664e20663dacc9b75b7313094f05d0f1e88d",
+          "bytes": 752476,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                16,
+                554,
+                437,
+                975
+              ],
+              "source_foot_pivot": [
+                236.69693863811733,
+                972
+              ],
+              "source_scale": 1,
+              "placement": [
+                291,
+                222
+              ]
+            },
+            {
+              "source_bounds": [
+                502,
+                494,
+                981,
+                976
+              ],
+              "source_foot_pivot": [
+                727.3614149874463,
+                973
+              ],
+              "source_scale": 1,
+              "placement": [
+                287,
+                161
+              ]
+            },
+            {
+              "source_bounds": [
+                994,
+                494,
+                1559,
+                976
+              ],
+              "source_foot_pivot": [
+                1221.4204525919135,
+                973
+              ],
+              "source_scale": 1,
+              "placement": [
+                285,
+                161
+              ]
+            },
+            {
+              "source_bounds": [
+                1578,
+                512,
+                2043,
+                976
+              ],
+              "source_foot_pivot": [
+                1786.2691762055447,
+                973
+              ],
+              "source_scale": 1,
+              "placement": [
+                304,
+                179
+              ]
+            }
+          ]
+        },
+        "attack3": {
+          "job_id": "job_75e4d58525f1405dbaa889d185ed4cff",
+          "source_sha256": "dc4627b41611fd011feb5663cd715bedfe5d46ca2170ac8933339749ae7e1767",
+          "sha256": "7b4aeadd80f47763bda48dbbef5b1cc5dadd6be6667698e8c84a31d69e568094",
+          "bytes": 709498,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                38,
+                1000,
+                451,
+                1488
+              ],
+              "source_foot_pivot": [
+                245.0530584524041,
+                1485
+              ],
+              "source_scale": 1,
+              "placement": [
+                305,
+                155
+              ]
+            },
+            {
+              "source_bounds": [
+                537,
+                1010,
+                971,
+                1488
+              ],
+              "source_foot_pivot": [
+                744.6625185553875,
+                1485
+              ],
+              "source_scale": 1,
+              "placement": [
+                304,
+                165
+              ]
+            },
+            {
+              "source_bounds": [
+                1013,
+                1024,
+                1564,
+                1488
+              ],
+              "source_foot_pivot": [
+                1229.5270662335217,
+                1485
+              ],
+              "source_scale": 1,
+              "placement": [
+                295,
+                179
+              ]
+            },
+            {
+              "source_bounds": [
+                1578,
+                1000,
+                2040,
+                1488
+              ],
+              "source_foot_pivot": [
+                1797.6872610937507,
+                1485
+              ],
+              "source_scale": 1,
+              "placement": [
+                292,
+                155
+              ]
+            }
+          ]
+        },
+        "attack4": {
+          "job_id": "job_75e4d58525f1405dbaa889d185ed4cff",
+          "source_sha256": "dc4627b41611fd011feb5663cd715bedfe5d46ca2170ac8933339749ae7e1767",
+          "sha256": "f362fe56c4c7b8d577a8d265bc23130f6fd134085bfa6052d174fa7b525ae425",
+          "bytes": 786848,
+          "unique_poses": 4,
+          "frames": [
+            {
+              "source_bounds": [
+                19,
+                1529,
+                498,
+                1994
+              ],
+              "source_foot_pivot": [
+                262.7735678616115,
+                1991
+              ],
+              "source_scale": 1,
+              "placement": [
+                268,
+                178
+              ]
+            },
+            {
+              "source_bounds": [
+                519,
+                1492,
+                1009,
+                1994
+              ],
+              "source_foot_pivot": [
+                752.4842599012084,
+                1991
+              ],
+              "source_scale": 1,
+              "placement": [
+                279,
+                141
+              ]
+            },
+            {
+              "source_bounds": [
+                1009,
+                1493,
+                1565,
+                1994
+              ],
+              "source_foot_pivot": [
+                1245.596487887632,
+                1991
+              ],
+              "source_scale": 1,
+              "placement": [
+                275,
+                142
+              ]
+            },
+            {
+              "source_bounds": [
+                1572,
+                1544,
+                2040,
+                1994
+              ],
+              "source_foot_pivot": [
+                1790.6594006580565,
+                1991
+              ],
+              "source_scale": 1,
+              "placement": [
+                293,
+                193
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

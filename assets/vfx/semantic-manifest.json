@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "atlases": {
+    "semantic-shell": {
+      "url": "../assets/vfx/semantic-shell.webp",
+      "columns": 1,
+      "rows": 1,
+      "durations": [
+        1.0
+      ],
+      "frames": 1,
+      "unique_frames": 1,
+      "bytes": 277720,
+      "sha256": "14a5ff72fe55c0ad3b2517f32635f6e1f8d02b1c9e986cc6a3fb599dfe843648",
+      "source": "Original Meowa generated static art, not an animated atlas",
+      "job_id": "job_d7b7da2171f047869a46279461fa3883",
+      "source_cutout": "shell-cutout.png",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "orientation": "seal top-down symmetric XY; sweep bright leading edge image+X; shell/filigree front-facing decoration only, actual world sphere needs code mesh"
+    },
+    "semantic-seal": {
+      "url": "../assets/vfx/semantic-seal.webp",
+      "columns": 1,
+      "rows": 1,
+      "durations": [
+        1.0
+      ],
+      "frames": 1,
+      "unique_frames": 1,
+      "bytes": 247564,
+      "sha256": "36b380fb7fce2d3c1c43649939e1a0db7c9dc6f1f32aea90da1c16291c541ae2",
+      "source": "Original Meowa generated static art, not an animated atlas",
+      "job_id": "job_d7b7da2171f047869a46279461fa3883",
+      "source_cutout": "seal-cutout.png",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "orientation": "seal top-down symmetric XY; sweep bright leading edge image+X; shell/filigree front-facing decoration only, actual world sphere needs code mesh"
+    },
+    "semantic-sweep": {
+      "url": "../assets/vfx/semantic-sweep.webp",
+      "columns": 1,
+      "rows": 1,
+      "durations": [
+        1.0
+      ],
+      "frames": 1,
+      "unique_frames": 1,
+      "bytes": 198186,
+      "sha256": "a33fd5c6ce25f7712617714a222fde5125361d55bf777a398c4dc6950553a62c",
+      "source": "Original Meowa generated static art, not an animated atlas",
+      "job_id": "job_d7b7da2171f047869a46279461fa3883",
+      "source_cutout": "sweep-cutout.png",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "orientation": "seal top-down symmetric XY; sweep bright leading edge image+X; shell/filigree front-facing decoration only, actual world sphere needs code mesh"
+    },
+    "semantic-filigree": {
+      "url": "../assets/vfx/semantic-filigree.webp",
+      "columns": 1,
+      "rows": 1,
+      "durations": [
+        1.0
+      ],
+      "frames": 1,
+      "unique_frames": 1,
+      "bytes": 256754,
+      "sha256": "fbc7ace81fcb570335ce58d4ddba81bff9c73554ee5b597f7168a49d98aae27f",
+      "source": "Original Meowa generated static art, not an animated atlas",
+      "job_id": "job_d7b7da2171f047869a46279461fa3883",
+      "source_cutout": "filigree-cutout.png",
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "orientation": "seal top-down symmetric XY; sweep bright leading edge image+X; shell/filigree front-facing decoration only, actual world sphere needs code mesh"
+    },
+    "semantic-fissure": {
+      "url": "../assets/vfx/semantic-fissure.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "frames": 8,
+      "source_frames": 8,
+      "source_unique_frames": 8,
+      "runtime_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "cell_size": [
+        128,
+        512
+      ],
+      "canvas": [
+        512,
+        1024
+      ],
+      "bytes": 376218,
+      "sha256": "af6df63bb1f2fb056891d9c8bd4a3cdddb88d493f270d2d69521f33be7f58533",
+      "source_sha256": "e7a01047b3befd64d261108fac5f779bcec5a77000e6759ee3937dfa51ed78de",
+      "job_id": "job_a4c412e41f4a48fdb04f60cd890460df",
+      "fixed_common_source_crop": [
+        228,
+        44,
+        413,
+        595
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "forward_image_axis": "top (-pixelY / +UV-v)",
+      "orientation_note": "fissure/arrows vertical long axis; fissure bottom near, top far; lightning top sky bottom ground; frost centered radial",
+      "limitations": "Fissure is full-length light pulse; code UV reveal needed for bottom-to-top growth.",
+      "process": "Decode actual Meowa HD frames; fixed common crop; transparent cell padding; lossless WebP. No synthetic animation frames."
+    },
+    "semantic-lightning": {
+      "url": "../assets/vfx/semantic-lightning.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "frames": 8,
+      "source_frames": 8,
+      "source_unique_frames": 8,
+      "runtime_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "cell_size": [
+        256,
+        512
+      ],
+      "canvas": [
+        1024,
+        1024
+      ],
+      "bytes": 547526,
+      "sha256": "de4572f074e65b0f9e0b270a8d17a7a657f2e12c6612ed9a43409655e7c82bd5",
+      "source_sha256": "1219137f7646dd87511dbfb624a4ddd18e8d1f2d3eccd5e07e5ed6edc0ae1d22",
+      "job_id": "job_7558e31922aa4e37956fa0193a2ca1c9",
+      "fixed_common_source_crop": [
+        176,
+        37,
+        464,
+        601
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "forward_image_axis": "down (+pixelY / -UV-v)",
+      "orientation_note": "fissure/arrows vertical long axis; fissure bottom near, top far; lightning top sky bottom ground; frost centered radial",
+      "limitations": "Last frame effectively transparent; no seamless loop claimed.",
+      "process": "Decode actual Meowa HD frames; fixed common crop; transparent cell padding; lossless WebP. No synthetic animation frames."
+    },
+    "semantic-frost": {
+      "url": "../assets/vfx/semantic-frost.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "frames": 8,
+      "source_frames": 8,
+      "source_unique_frames": 8,
+      "runtime_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "cell_size": [
+        256,
+        256
+      ],
+      "canvas": [
+        1024,
+        512
+      ],
+      "bytes": 259376,
+      "sha256": "9be11871524043edeae0f784c29be1cba8e0c9e2df69b2a103ca57bf064209e4",
+      "source_sha256": "f3c30cbb3e7f6d02d2960a0e835324fd36e4edad78acf569bbf55cec67f8fef4",
+      "job_id": "job_eb55b16d42db4b50ad43a17ee26ec124",
+      "fixed_common_source_crop": [
+        0,
+        0,
+        640,
+        640
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "forward_image_axis": "radial",
+      "orientation_note": "fissure/arrows vertical long axis; fissure bottom near, top far; lightning top sky bottom ground; frost centered radial",
+      "limitations": "Frost expanding fragments reach source edges;20px alpha edge fade avoids hard cut; no missing pixels reconstructed.",
+      "process": "Decode actual Meowa HD frames; fixed common crop; transparent cell padding; lossless WebP. No synthetic animation frames."
+    },
+    "semantic-arrows": {
+      "url": "../assets/vfx/semantic-arrows.webp",
+      "columns": 3,
+      "rows": 1,
+      "durations": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "frames": 3,
+      "source_frames": 8,
+      "source_unique_frames": 8,
+      "runtime_source_indices": [
+        0,
+        1,
+        2
+      ],
+      "cell_size": [
+        128,
+        512
+      ],
+      "canvas": [
+        384,
+        512
+      ],
+      "bytes": 93666,
+      "sha256": "ee960d87da0b32e5211cb534f700af0de09f0a9ffef391193602d778040c4fee",
+      "source_sha256": "06559ce6bd0edd87069ddbc74c918cbebcade22043e524d34757d49c7b7983fe",
+      "job_id": "job_a84e48aaee984bdfaa3bd8939a41c577",
+      "fixed_common_source_crop": [
+        219,
+        0,
+        419,
+        640
+      ],
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "forward_image_axis": "top (-pixelY / +UV-v)",
+      "orientation_note": "fissure/arrows vertical long axis; fissure bottom near, top far; lightning top sky bottom ground; frost centered radial",
+      "limitations": "Only first3 generated frames used because later arrowheads exit canvas. Code supplies travel/fade.",
+      "process": "Decode actual Meowa HD frames; fixed common crop; transparent cell padding; lossless WebP. No synthetic animation frames."
+    }
+  }
+}

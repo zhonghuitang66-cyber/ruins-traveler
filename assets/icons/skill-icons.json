@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "roles": {
+    "swordsman": {
+      "attack": "assets/icons/attack-melee.webp",
+      "skills": [
+        "assets/icons/swordsman-slash.webp",
+        "assets/icons/swordsman-thrust.webp",
+        "assets/icons/swordsman-slam.webp"
+      ]
+    },
+    "paladin": {
+      "attack": "assets/icons/hammer.webp",
+      "skills": [
+        "assets/icons/paladin-guard.webp",
+        "assets/icons/paladin-thunder.webp",
+        "assets/icons/paladin-heal.webp"
+      ]
+    },
+    "archer": {
+      "attack": "assets/icons/attack-bow.webp",
+      "skills": [
+        "assets/icons/archer-volley.webp",
+        "assets/icons/archer-frost.webp",
+        "assets/icons/archer-wind.webp"
+      ]
+    }
+  },
+  "dodge": "assets/icons/dodge.webp",
+  "origin": "Meowa original generation and authorized reuse from user Dream Island project",
+  "provenance": "assets/icons/skill-icons-provenance.json",
+  "runtimeDimensions": [
+    128,
+    128
+  ],
+  "renderHint": "background-size:contain; labels and cooldown are UI overlays, never baked text"
+}

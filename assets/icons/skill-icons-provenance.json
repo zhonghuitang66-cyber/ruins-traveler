@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "referenceOwnership": "User-provided read-only project; reuse explicitly requested this session",
+  "generationSubmitCount": 2,
+  "generationJobId": "job_c11039b5eac045449bd406ad3cf746de",
+  "templateUsed": false,
+  "newCount": 9,
+  "reusedCount": 4,
+  "noUnlicensedGameImages": true,
+  "entries": [
+    {
+      "id": "attack-melee",
+      "origin": "authorized_reuse_existing_user_project_Meowa",
+      "source_project": "koudai_xy_1007",
+      "source_path": "game/assets/ui/mobile_v105/attack.png",
+      "source_crop": null,
+      "source_sha256": "d48575b89534a4c227238337016e32871b0e882a1b1745f391e740737a8a970c",
+      "Meowa_job_id": "job_e5a8ee203c134fb28a6faff685152f96",
+      "reference_document": "v105操作界面与素材验收.md",
+      "runtime_webp": "attack-melee.webp",
+      "runtime_png": "attack-melee.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "resize": "whole original icon contained in112x112 with8px dark padding; no weapon tip crop",
+      "runtime_sha256": "dc5e8237c7dba96a60b42948030180aebdbbdca54033f48e90cd99876824cf75",
+      "runtime_bytes": 5536
+    },
+    {
+      "id": "dodge",
+      "origin": "authorized_reuse_existing_user_project_Meowa",
+      "source_project": "koudai_xy_1007",
+      "source_path": "game/assets/ui/mobile_v105/jump.png",
+      "source_crop": null,
+      "source_sha256": "282f5a6e6523e8ac86d2fba6e38d9e52ad4e079e7602b0bb483bb8e616b99fc4",
+      "Meowa_job_id": "job_e5a8ee203c134fb28a6faff685152f96",
+      "reference_document": "v105操作界面与素材验收.md",
+      "runtime_webp": "dodge.webp",
+      "runtime_png": "dodge.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "resize": "whole original icon contained in112x112 with8px dark padding; no weapon tip crop",
+      "runtime_sha256": "0bf2f17203dee3979c92ecbcc9dd67d4b256175f15f932bf2e64dbd4e4fd3397",
+      "runtime_bytes": 5856
+    },
+    {
+      "id": "attack-bow",
+      "origin": "authorized_reuse_existing_user_project_Meowa",
+      "source_project": "koudai_xy_1007",
+      "source_path": "game/assets/ui/mobile_v105/rapier_tyrant_1.png",
+      "source_crop": null,
+      "source_sha256": "7ae1df3affd97762226d37ee86cbb53233baaad2137b31eebd9e5ddaeb7ff056",
+      "Meowa_job_id": "job_e5a8ee203c134fb28a6faff685152f96",
+      "reference_document": "v105操作界面与素材验收.md",
+      "runtime_webp": "attack-bow.webp",
+      "runtime_png": "attack-bow.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "resize": "whole original icon contained in112x112 with8px dark padding; no weapon tip crop",
+      "runtime_sha256": "a28fbd1d88be5fbe9704388619ab9459d48a2d6ec3e111a9509118592b8d06f7",
+      "runtime_bytes": 4324
+    },
+    {
+      "id": "paladin-guard",
+      "origin": "authorized_reuse_existing_user_project_Meowa",
+      "source_project": "koudai_xy_1007",
+      "source_path": "assets/generated/meowa/v105/lowpoly_icons_sheet.png",
+      "source_crop": [
+        512,
+        768,
+        768,
+        1024
+      ],
+      "source_sha256": "a81ae13d267c8f49bfc69b3f711e4add6821dda87394cbf3a28f3c9c83d49430",
+      "Meowa_job_id": "job_e5a8ee203c134fb28a6faff685152f96",
+      "reference_document": "v105操作界面与素材验收.md",
+      "runtime_webp": "paladin-guard.webp",
+      "runtime_png": "paladin-guard.png",
+      "dimensions": [
+        128,
+        128
+      ],
+      "resize": "whole original icon contained in112x112 with8px dark padding; no weapon tip crop",
+      "runtime_sha256": "830de2ff14f472cc43dc12a8f1b89f81a4e789ea2e7d8acd61c968a8a7cf25b3",
+      "runtime_bytes": 4944
+    },
+    {
+      "id": "swordsman-slash",
+      "origin": "new_Meowa_general_generation",
+      "Meowa_job_id": "job_c11039b5eac045449bd406ad3cf746de",
+      "source_sheet_sha256": "c602e1a1f838e0ca70c42461c6176de2e573e1f358accac7c3dcb21fb7efbdb5",
+      "source_crop": [
+        10,
+        20,
+        380,
+        392
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "runtime_webp": "swordsman-slash.webp",
+      "authoring_png": "swordsman-slash.png",
+      "resize": "whole rounded card contained in112x112 with8px dark padding; preserve full weapons",
+      "runtime_sha256": "d0a8b5e147afe95c9cd3cf33b812ea417a4656682651ff8919abd3de2aaff8b2",
+      "runtime_bytes": 6042
+    },
+    {
+      "id": "swordsman-thrust",
+      "origin": "new_Meowa_general_generation",
+      "Meowa_job_id": "job_c11039b5eac045449bd406ad3cf746de",
+      "source_sheet_sha256": "c602e1a1f838e0ca70c42461c6176de2e573e1f358accac7c3dcb21fb7efbdb5",
+      "source_crop": [
+        394,
+        20,
+        766,
+        392
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "runtime_webp": "swordsman-thrust.webp",
+      "authoring_png": "swordsman-thrust.png",
+      "resize": "whole rounded card contained in112x112 with8px dark padding; preserve full weapons",
+      "runtime_sha256": "808030b733e4f7b27bd4828372744d1ee897d0328c00fb976df87dffaf30a2a0",
+      "runtime_bytes": 6470
+    },
+    {
+      "id": "swordsman-slam",
+      "origin": "new_Meowa_general_generation",
+      "Meowa_job_id": "job_c11039b5eac045449bd406ad3cf746de",
+      "source_sheet_sha256": "c602e1a1f838e0ca70c42461c6176de2e573e1f358accac7c3dcb21fb7efbdb5",
+      "source_crop": [
+        778,
+        20,
+        1150,
+        392
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "runtime_webp": "swordsman-slam.webp",
+      "authoring_png": "swordsman-slam.png",
+      "resize": "whole rounded card contained in112x112 with8px dark padding; preserve full weapons",
+      "runtime_sha256": "e2c498c36ff9a9547668b0569c9d38b39faafbf1031910ba91782d551cfcb9b6",
+      "runtime_bytes": 6202
+    },
+    {
+      "id": "paladin-thunder",
+      "origin": "new_Meowa_general_generation",
+      "Meowa_job_id": "job_c11039b5eac045449bd406ad3cf746de",
+      "source_sheet_sha256": "c602e1a1f838e0ca70c42461c6176de2e573e1f358accac7c3dcb21fb7efbdb5",
+      "source_crop": [
+        1158,
+        20,
+        1528,
+        392
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "runtime_webp": "paladin-thunder.webp",
+      "authoring_png": "paladin-thunder.png",
+      "resize": "whole rounded card contained in112x112 with8px dark padding; preserve full weapons",
+      "runtime_sha256": "bc47daa802249a07441f0b73d844b7bbf30f6d94b778a28cf2ab6f4da479eb28",
+      "runtime_bytes": 5980
+    },
+    {
+      "id": "paladin-heal",
+      "origin": "new_Meowa_general_generation",
+      "Meowa_job_id": "job_c11039b5eac045449bd406ad3cf746de",
+      "source_sheet_sha256": "c602e1a1f838e0ca70c42461c6176de2e573e1f358accac7c3dcb21fb7efbdb5",
+      "source_crop": [
+        10,
+        406,
+        380,
+        790
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "runtime_webp": "paladin-heal.webp",
+      "authoring_png": "paladin-heal.png",
+      "resize": "whole rounded card contained in112x112 with8px dark padding; preserve full weapons",
+      "runtime_sha256": "dabbc523eff45336cb9d7c62f3a101b8a1a13ddb89c1cef02886f3e9cfb08599",
+      "runtime_bytes": 5396
+    },
+    {
+      "id": "archer-volley",
+      "origin": "new_Meowa_general_generation",
+      "Meowa_job_id": "job_c11039b5eac045449bd406ad3cf746de",
+      "source_sheet_sha256": "c602e1a1f838e0ca70c42461c6176de2e573e1f358accac7c3dcb21fb7efbdb5",
+      "source_crop": [
+        394,
+        406,
+        766,
+        790
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "runtime_webp": "archer-volley.webp",
+      "authoring_png": "archer-volley.png",
+      "resize": "whole rounded card contained in112x112 with8px dark padding; preserve full weapons",
+      "runtime_sha256": "97a85e2ae1d39e56c73eb7203f39970cf4e24db23089da4222b0c411ef918669",
+      "runtime_bytes": 4986
+    },
+    {
+      "id": "archer-frost",
+      "origin": "new_Meowa_general_generation",
+      "Meowa_job_id": "job_c11039b5eac045449bd406ad3cf746de",
+      "source_sheet_sha256": "c602e1a1f838e0ca70c42461c6176de2e573e1f358accac7c3dcb21fb7efbdb5",
+      "source_crop": [
+        778,
+        406,
+        1150,
+        790
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "runtime_webp": "archer-frost.webp",
+      "authoring_png": "archer-frost.png",
+      "resize": "whole rounded card contained in112x112 with8px dark padding; preserve full weapons",
+      "runtime_sha256": "9e9345b5ea187738b54fcaa885ed78f2bf1f7ed009ef8a9f49827ecfce984d80",
+      "runtime_bytes": 5858
+    },
+    {
+      "id": "archer-wind",
+      "origin": "new_Meowa_general_generation",
+      "Meowa_job_id": "job_c11039b5eac045449bd406ad3cf746de",
+      "source_sheet_sha256": "c602e1a1f838e0ca70c42461c6176de2e573e1f358accac7c3dcb21fb7efbdb5",
+      "source_crop": [
+        1158,
+        406,
+        1528,
+        790
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "runtime_webp": "archer-wind.webp",
+      "authoring_png": "archer-wind.png",
+      "resize": "whole rounded card contained in112x112 with8px dark padding; preserve full weapons",
+      "runtime_sha256": "90439d18e728092d8bfbc59b1d74a25684cd54f28b30ab3654681dd157f21f23",
+      "runtime_bytes": 6280
+    },
+    {
+      "id": "hammer",
+      "origin": "new_Meowa_general_generation",
+      "Meowa_job_id": "job_4c6f2d429fb74e11b7c5b256570e73c4",
+      "source_media_sha256": "755c49a2f44e09382559d0fb90d466fbbd0d7d2bee1c1bba17632d78880c4cff",
+      "source_crop": null,
+      "source_dimensions": [
+        1024,
+        1024
+      ],
+      "dimensions": [
+        128,
+        128
+      ],
+      "runtime_webp": "hammer.webp",
+      "runtime_sha256": "7286fa8cc473b13a445bd00e0354f0f9b6cefc30d15c0c4fed6df8eeb62ed0a0",
+      "runtime_bytes": 5882,
+      "resize": "entire original square icon contained in112x112 with8px dark padding; no head/handle crop"
+    }
+  ],
+  "balanceBefore": 797,
+  "balanceAfter": 791,
+  "actualCreditDelta": 6,
+  "paidCreditsBefore": 787,
+  "paidCreditsAfter": 787,
+  "generationJobs": [
+    {
+      "id": "job_c11039b5eac045449bd406ad3cf746de",
+      "iconCount": 8,
+      "submitCount": 1,
+      "credits": 3
+    },
+    {
+      "id": "job_4c6f2d429fb74e11b7c5b256570e73c4",
+      "iconCount": 1,
+      "submitCount": 1,
+      "credits": 3,
+      "authorization": "explicit extra single hammer requested by root"
+    }
+  ]
+}

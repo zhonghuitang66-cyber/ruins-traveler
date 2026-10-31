@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "purpose": "actual_game_player_runtime",
+  "approvalScope": "User requested P2 characters in actual game; not final art acceptance",
+  "roles": {
+    "swordsman": {
+      "approved": true,
+      "runtimeEnabled": true,
+      "artStatus": "work_in_progress_user_requested_game_runtime",
+      "url": "assets/models/p2-swordsman-inplace.glb",
+      "height": 2,
+      "yawRadians": -1.5707963267948966,
+      "clips": {
+        "idle": "idle",
+        "run": "run",
+        "attack": "swordsman_sweep_v4",
+        "skill0": "swordsman_charge_release_v4",
+        "skill1": "swordsman_dash_v3",
+        "skill2": "swordsman_leap_v3",
+        "charge": "swordsman_charge_v4"
+      },
+      "durations": {
+        "attack": 0.65,
+        "skill0": 0.4,
+        "skill1": 0.5,
+        "skill2": 0.6,
+        "charge": 0.7
+      },
+      "source": "outputs/art/characters-p2/swordsman/rig-candidate/combat-v4/swordsman-combat-v4.glb",
+      "sha256": "37a896f25bce2c2eba1d479d24fbdcbf398be992a23af8a2e412ef1e22eceb3c",
+      "bytes": 1050196,
+      "knownLimitations": "新双手后撤低重心蓄力、肩髋驱动横扫、爆裂横向释放；普攻.72与爆裂.52实际刀轴近+X前方，yaw映射一致。手指皮面/肩甲裙发穿插及精确表面接触仍WIP。",
+      "runtimeRevision": "two_hand_low_charge_horizontal_forward_burst_v4",
+      "gripRuntimeTracks": [
+        "idle:RightHand{Index,Middle,Ring,Pinky,Thumb}{1,2}.rotation",
+        "run:RightHand{Index,Middle,Ring,Pinky,Thumb}{1,2}.rotation"
+      ],
+      "attackReleasePhase": 0.72,
+      "sweepCuePlaneVerified": {
+        "phase": 0.72,
+        "maxVerticalRatio": 0.00036,
+        "forwardDot": 0.99519
+      },
+      "skill0ReleasePhase": 0.52,
+      "weaponNodes": [
+        "local_debug_sword_not_final_weapon"
+      ],
+      "compensateUpperHips": true
+    },
+    "paladin": {
+      "approved": true,
+      "runtimeEnabled": true,
+      "artStatus": "work_in_progress_user_requested_game_runtime",
+      "url": "assets/models/p2-paladin-inplace.glb",
+      "height": 2,
+      "yawRadians": -1.5707963267948966,
+      "clips": {
+        "idle": "idle",
+        "run": "run",
+        "attack": "paladin_sweep_v3",
+        "skill0": "paladin_guard_v3",
+        "skill1": "paladin_thunder_cast_v3",
+        "skill2": "paladin_heal_cast_v3"
+      },
+      "durations": {
+        "attack": 0.8,
+        "skill0": 0.6,
+        "skill1": 0.7,
+        "skill2": 0.8
+      },
+      "source": "outputs/art/characters-p2/paladin/rig-candidate/combat-tension/paladin-tension.glb",
+      "sha256": "61ce7db941755d65a70c4738afa5a8afa3f1dd6b5ed460980ec17184bd4c2e80",
+      "bytes": 1012756,
+      "knownLimitations": "真实骨骼横主导普攻/九技能/剑蓄力动作候选，所有旧几何、闭握、idle/run保留。横扫整段水平武器跨度大于竖直，但局部刀轴仍有抬角；专业握持、裙发/肩甲穿插及全部技能命中帧精确对齐仍WIP。不是仅靠特效替代角色动作。",
+      "runtimeRevision": "attack_anticipation_burst_recovery_tension",
+      "gripRuntimeTracks": [
+        "idle:RightHand{Index,Middle,Ring,Pinky,Thumb}{1,2}.rotation",
+        "run:RightHand{Index,Middle,Ring,Pinky,Thumb}{1,2}.rotation"
+      ],
+      "attackReleasePhase": 0.68,
+      "attackTimingKnots": [
+        [
+          0,
+          0
+        ],
+        [
+          0.46,
+          0.58
+        ],
+        [
+          0.68,
+          0.68
+        ],
+        [
+          0.87,
+          0.81
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "weaponNodes": [
+        "local_right_hand_hammer_candidate"
+      ]
+    },
+    "archer": {
+      "approved": true,
+      "runtimeEnabled": true,
+      "artStatus": "work_in_progress_user_requested_game_runtime",
+      "url": "assets/models/p2-archer-inplace.glb",
+      "height": 2,
+      "yawRadians": -1.5707963267948966,
+      "clips": {
+        "idle": "idle",
+        "run": "run",
+        "attack": "archer_draw_release_v2",
+        "skill0": "archer_volley_cast_v3",
+        "skill1": "archer_frost_cast_v3",
+        "skill2": "archer_wind_cast_v3"
+      },
+      "durations": {
+        "attack": 0.7,
+        "skill0": 0.6,
+        "skill1": 0.65,
+        "skill2": 0.9
+      },
+      "source": "outputs/art/characters-p2/archer/rig-candidate/combat-tension/archer-tension.glb",
+      "sha256": "3c257e9b857b75e36efb8979ee4bafa89e8d16ea58e3a740df5d708a1312004e",
+      "bytes": 994528,
+      "knownLimitations": "真实骨骼横主导普攻/九技能/剑蓄力动作候选，所有旧几何、闭握、idle/run保留。横扫整段水平武器跨度大于竖直，但局部刀轴仍有抬角；专业握持、裙发/肩甲穿插及全部技能命中帧精确对齐仍WIP。不是仅靠特效替代角色动作。",
+      "runtimeRevision": "attack_anticipation_burst_recovery_tension",
+      "gripRuntimeTracks": [],
+      "attackReleasePhase": 0.65,
+      "attackTimingKnots": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          0.45
+        ],
+        [
+          0.65,
+          0.65
+        ],
+        [
+          0.82,
+          0.76
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "weaponNodes": [
+        "local_debug_bow_not_final_weapon"
+      ]
+    }
+  }
+}

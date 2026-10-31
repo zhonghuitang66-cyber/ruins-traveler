@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "style": "pastel low-poly academy: cream stone, lavender-blue caps, warm wood",
+  "source": "Tripo P2-20260801",
+  "modules": {
+    "arch": {
+      "url": "academy-arch.glb",
+      "triangles": 1767,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 623224,
+      "sha256": "668b8b82c17d304c06ff110d0344d78b37683fb1632760c4b3c22bac66ccd368",
+      "size": {
+        "x": 5.291114807128906,
+        "y": 4.800000190734863,
+        "z": 1.5586432218551636
+      },
+      "bbox": {
+        "min": [
+          -2.645557403564453,
+          0,
+          -0.7793216109275818
+        ],
+        "max": [
+          2.645557403564453,
+          4.800000190734863,
+          0.7793216109275818
+        ]
+      },
+      "anchor": "bottom-center",
+      "forward": "depth Z; broad face lies in XY",
+      "sourceTask": "b9b6e2fa-b058-4de7-98a3-43c19cc836c6"
+    },
+    "bookcase": {
+      "url": "academy-bookcase.glb",
+      "triangles": 1697,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 611040,
+      "sha256": "3ec8cfd17e4c5c8029bf326d583b7743ed505d0d676af792388fa9aa5e1fcccb",
+      "size": {
+        "x": 2.293600559234619,
+        "y": 3.0,
+        "z": 1.232535481452942
+      },
+      "bbox": {
+        "min": [
+          -1.1468002796173096,
+          0,
+          -0.616267740726471
+        ],
+        "max": [
+          1.1468002796173096,
+          3.0,
+          0.616267740726471
+        ]
+      },
+      "anchor": "bottom-center",
+      "forward": "depth Z; broad face lies in XY",
+      "sourceTask": "17ffbf67-3c43-4c62-b9ea-1f5ee91d7e44"
+    },
+    "dais": {
+      "url": "academy-relic-dais.glb",
+      "triangles": 1834,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 498420,
+      "sha256": "b8fbcf80422497b3660affc3c916bd34de46724ba2a39e1ff7246ced4f4021c1",
+      "size": {
+        "x": 3.0419814586639404,
+        "y": 2.4000000953674316,
+        "z": 2.9409289360046387
+      },
+      "bbox": {
+        "min": [
+          -1.5209907293319702,
+          0,
+          -1.4704644680023193
+        ],
+        "max": [
+          1.5209907293319702,
+          2.4000000953674316,
+          1.4704644680023193
+        ]
+      },
+      "anchor": "bottom-center",
+      "forward": "depth Z; broad face lies in XY",
+      "sourceTask": "55161137-9e68-418a-8976-403147482234"
+    }
+  }
+}

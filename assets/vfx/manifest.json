@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "atlases": {
+    "slash": {
+      "url": "assets/vfx/slash.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "source": "new-meowa/slash",
+      "source_sha256": "f23cfbfda50fb326c8b33021a1157212b883da6ff6af8d2bebae3b78d010fe40",
+      "runtime_sha256": "edbf5597992c125abd497d64cffade2d209a491e6ef6b3a7b88d378ea762ea71",
+      "runtime_bytes": 187108,
+      "frames": 8,
+      "unique_frames": 8,
+      "duration_seconds": 0.8,
+      "cell_size": [
+        256,
+        256
+      ],
+      "canvas": [
+        1024,
+        512
+      ],
+      "process": "Decode original real frames, optional source-approved wind crop, fit with margins, transparent atlas packing; no procedural frame generation",
+      "origin": "Meowa new HD animation",
+      "authorization": "Meowa user-created assets, reused by current user authorization; not asserted public-domain/CC0",
+      "job_id": "job_6f8410d658474d718fe0325433dcd6f4"
+    },
+    "aegis": {
+      "url": "assets/vfx/aegis.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "source": "new-meowa/aegis",
+      "source_sha256": "15e7638436b7588a2bcc316920c1473790af26a6725548c64cf5f42bcc908a82",
+      "runtime_sha256": "612caa6fabd6346b3aa9671ca79a975fc14c6c435a227221c54e7703a56c7664",
+      "runtime_bytes": 344766,
+      "frames": 8,
+      "unique_frames": 8,
+      "duration_seconds": 0.8,
+      "cell_size": [
+        256,
+        256
+      ],
+      "canvas": [
+        1024,
+        512
+      ],
+      "process": "Decode original real frames, optional source-approved wind crop, fit with margins, transparent atlas packing; no procedural frame generation",
+      "origin": "Meowa new HD animation",
+      "authorization": "Meowa user-created assets, reused by current user authorization; not asserted public-domain/CC0",
+      "job_id": "job_3d3ddb533eac47018d1284cdc7e1b14f"
+    },
+    "ember": {
+      "url": "assets/vfx/ember.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "source": "new-meowa/ember",
+      "source_sha256": "1a73035062475fa128888515ca5526fdfe343f2873ccff6f20db0dc271f4d033",
+      "runtime_sha256": "692bb5c9396f8083b45908c7fa660d4f7ce406679bcde3d2ce4bdbe049b4147c",
+      "runtime_bytes": 407580,
+      "frames": 8,
+      "unique_frames": 8,
+      "duration_seconds": 0.8,
+      "cell_size": [
+        256,
+        256
+      ],
+      "canvas": [
+        1024,
+        512
+      ],
+      "process": "Decode original real frames, optional source-approved wind crop, fit with margins, transparent atlas packing; no procedural frame generation",
+      "origin": "Meowa new HD animation",
+      "authorization": "Meowa user-created assets, reused by current user authorization; not asserted public-domain/CC0",
+      "job_id": "job_cca3e3f285af40a1ab2a41b553ae6912"
+    },
+    "wind": {
+      "url": "assets/vfx/wind.webp",
+      "columns": 4,
+      "rows": 4,
+      "durations": [
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125
+      ],
+      "source": "user-owned-dream-island/assets/generated/meowa/fantasy_girl_v87/storm_original.webp",
+      "source_sha256": "f28ec19ba83c771aa1891b300e130b8eb140162ea800307a3d2af0bbb2bc9296",
+      "runtime_sha256": "32684382a64e418c233a8e4e8c3c4f938f9bcf481254231546eed174d6574990",
+      "runtime_bytes": 193398,
+      "frames": 16,
+      "unique_frames": 16,
+      "duration_seconds": 2.0,
+      "cell_size": [
+        256,
+        256
+      ],
+      "canvas": [
+        1024,
+        1024
+      ],
+      "process": "Decode original real frames, optional source-approved wind crop, fit with margins, transparent atlas packing; no procedural frame generation",
+      "origin": "User-owned Dream Island Meowa animation reused by authorization",
+      "authorization": "Meowa user-created assets, reused by current user authorization; not asserted public-domain/CC0"
+    },
+    "hit": {
+      "url": "assets/vfx/hit.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125
+      ],
+      "source": "user-owned-dream-island/assets/generated/meowa/fantasy_girl_v87/storm_hit_final_original.webp",
+      "source_sha256": "de812d3a55db26b85570df48ff9cb3acaf64b42ad80b97ee5269167248180f44",
+      "runtime_sha256": "d3e7142a8c06c25262be5b47e75df725ebe1609597e02456592ca06296018fab",
+      "runtime_bytes": 63662,
+      "frames": 8,
+      "unique_frames": 8,
+      "duration_seconds": 1.0,
+      "cell_size": [
+        256,
+        256
+      ],
+      "canvas": [
+        1024,
+        512
+      ],
+      "process": "Decode original real frames, optional source-approved wind crop, fit with margins, transparent atlas packing; no procedural frame generation",
+      "origin": "User-owned Dream Island Meowa animation reused by authorization",
+      "authorization": "Meowa user-created assets, reused by current user authorization; not asserted public-domain/CC0"
+    },
+    "heal": {
+      "url": "assets/vfx/heal.webp",
+      "columns": 4,
+      "rows": 4,
+      "durations": [
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125
+      ],
+      "source": "user-owned-dream-island/assets/generated/meowa/v99/heal_circle.webp",
+      "source_sha256": "51e3b2446612ae03eb94c19b89ad6a4e681f7438f2ffb1d090bdb20287593690",
+      "runtime_sha256": "6acbf6276bbae70a4d46e99967b945b3f91b166e9cbc5f473296ec85f4f1a3dc",
+      "runtime_bytes": 214112,
+      "frames": 16,
+      "unique_frames": 16,
+      "duration_seconds": 2.0,
+      "cell_size": [
+        256,
+        256
+      ],
+      "canvas": [
+        1024,
+        1024
+      ],
+      "process": "Decode original real frames, optional source-approved wind crop, fit with margins, transparent atlas packing; no procedural frame generation",
+      "origin": "User-owned Dream Island Meowa animation reused by authorization",
+      "authorization": "Meowa user-created assets, reused by current user authorization; not asserted public-domain/CC0"
+    }
+  }
+}

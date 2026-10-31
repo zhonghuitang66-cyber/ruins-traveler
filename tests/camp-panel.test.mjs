@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {createCampPanel} from '../src/camp-panel.js';import {createWarehouseStore} from '../src/inventory.js';import {rollEquipment} from '../src/equipment.js';
+class Node{constructor(tag){this.tag=tag;this.children=[];this.style={setProperty(){}};this.textContent=''}append(...nodes){this.children.push(...nodes)}replaceChildren(...nodes){this.children=[...nodes]}remove(){}}
+const all=n=>[n,...n.children.flatMap(all)];
+test('camp UI wears and removes owned equipment, enforces5unit cargo and retains collection entry',()=>{const rows=new Map(),store=createWarehouseStore({storage:{getItem:k=>rows.get(k)??null,setItem:(k,v)=>rows.set(k,v)}});store.settle('seed',[rollEquipment('rust_sword',{uid:'ui-camp'}),{id:'health',n:8}]);const root=new Node('root');globalThis.document={createElement:t=>new Node(t)};let collectionOpened=false;const panel=createCampPanel({store,getRole:()=> 'swordsman',onCollection(){collectionOpened=true}});panel.render(root);const button=text=>{const b=all(root).find(n=>n.tag==='button'&&n.textContent===text);assert.ok(b,text);return b};
+ button('穿戴 / 替换').onclick();assert.equal(panel.getLoadout().weapon,'ui-camp');assert.ok(all(root).some(n=>n.tag==='img'&&n.src==='assets/item-icons/rust_sword.webp'));button('卸下').onclick();assert.deepEqual(panel.getLoadout(),{});
+ for(let i=0;i<5;i++){assert.equal(!!button('+').disabled,false);button('+').onclick()}assert.equal(button('+').disabled,true);assert.deepEqual(panel.getCargo(),{health:5});button('−').onclick();assert.deepEqual(panel.getCargo(),{health:4});button('打开红色收藏 · 0/100').onclick();assert.equal(collectionOpened,true);
+});

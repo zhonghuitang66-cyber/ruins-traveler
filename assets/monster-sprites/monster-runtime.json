@@ -1,0 +1,510 @@
+{
+  "version": 1,
+  "representation": "Meowa authored four-key-pose animation rows, one actual view per monster",
+  "monsters": {
+    "sword": {
+      "approved": true,
+      "height": 2.1,
+      "anchor": [
+        0.5,
+        0.97
+      ],
+      "allowTemporaryMirror": true,
+      "sourceFacing": "right",
+      "clips": {
+        "run": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "sword.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "fps": 7,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "attack": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "sword.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "fps": 9,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "charge": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "sword.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                8,
+                9,
+                10,
+                11
+              ],
+              "fps": 5,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "idle": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "sword.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "fps": 3,
+              "sourceFacing": "right"
+            }
+          }
+        }
+      }
+    },
+    "hammer": {
+      "approved": true,
+      "height": 2.1,
+      "anchor": [
+        0.5,
+        0.97
+      ],
+      "allowTemporaryMirror": true,
+      "sourceFacing": "right",
+      "clips": {
+        "run": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "hammer.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "fps": 7,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "attack": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "hammer.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "fps": 9,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "charge": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "hammer.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                8,
+                9,
+                10,
+                11
+              ],
+              "fps": 5,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "idle": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "hammer.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "fps": 3,
+              "sourceFacing": "right"
+            }
+          }
+        }
+      }
+    },
+    "spear": {
+      "approved": true,
+      "height": 2.1,
+      "anchor": [
+        0.5,
+        0.97
+      ],
+      "allowTemporaryMirror": true,
+      "sourceFacing": "right",
+      "clips": {
+        "run": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "spear.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "fps": 7,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "attack": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "spear.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "fps": 9,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "charge": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "spear.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                8,
+                9,
+                10,
+                11
+              ],
+              "fps": 5,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "idle": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "spear.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "fps": 3,
+              "sourceFacing": "right"
+            }
+          }
+        }
+      }
+    },
+    "boss": {
+      "approved": true,
+      "height": 4.4,
+      "anchor": [
+        0.5,
+        0.97
+      ],
+      "allowTemporaryMirror": true,
+      "sourceFacing": "right",
+      "clips": {
+        "run": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "boss.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "fps": 7,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "attack": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "boss.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "fps": 9,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "charge": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "boss.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                8,
+                9,
+                10,
+                11
+              ],
+              "fps": 5,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "idle": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "boss.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "fps": 3,
+              "sourceFacing": "right"
+            }
+          }
+        }
+      }
+    },
+    "bow": {
+      "approved": true,
+      "height": 2.1,
+      "anchor": [
+        0.5,
+        0.97
+      ],
+      "allowTemporaryMirror": true,
+      "sourceFacing": "right",
+      "clips": {
+        "run": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "archer.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "fps": 7,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "attack": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "archer.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "fps": 9,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "charge": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "archer.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                8,
+                9,
+                10,
+                11
+              ],
+              "fps": 5,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "idle": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "archer.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "fps": 3,
+              "sourceFacing": "right"
+            }
+          }
+        }
+      }
+    },
+    "mage": {
+      "approved": true,
+      "height": 2.1,
+      "anchor": [
+        0.5,
+        0.97
+      ],
+      "allowTemporaryMirror": true,
+      "sourceFacing": "right",
+      "clips": {
+        "run": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "mage.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                0,
+                1,
+                2,
+                3
+              ],
+              "fps": 7,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "attack": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "mage.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                4,
+                5,
+                6,
+                7
+              ],
+              "fps": 9,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "charge": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "mage.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                8,
+                9,
+                10,
+                11
+              ],
+              "fps": 5,
+              "sourceFacing": "right"
+            }
+          }
+        },
+        "idle": {
+          "cue": 0.5,
+          "directions": {
+            "se": {
+              "url": "mage.webp",
+              "columns": 4,
+              "rows": 4,
+              "frames": [
+                12,
+                13,
+                14,
+                15
+              ],
+              "fps": 3,
+              "sourceFacing": "right"
+            }
+          }
+        }
+      }
+    }
+  }
+}

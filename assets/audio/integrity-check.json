@@ -1,0 +1,51 @@
+{
+  "createdUtc": "2026-10-31T04:36:00.437211+00:00",
+  "allDerivedFilesDecode": true,
+  "subjectiveListeningAccepted": false,
+  "listeningLimitation": "Model tool explicitly does not support audio input; candidate awaits human playback, no hearing claim.",
+  "checks": {
+    "paladin_attack": {
+      "duration": 0.42133333333333334,
+      "peakDb": -0.3164881433221261,
+      "rms": 0.13994980210509872,
+      "sha256": "c05a338f18c686d3f500a8c0d0f454eb414903f4fe1f298280a517e71aecaaa0",
+      "bytes": 8932,
+      "decodePassed": true
+    },
+    "archer_attack": {
+      "duration": 0.18164583333333334,
+      "peakDb": -2.690163357351183,
+      "rms": 0.126466541020004,
+      "sha256": "2a411179105d77314d5abdc3b78561422a32aeab8ff5eef248c0874d6ceba321",
+      "bytes": 6161,
+      "decodePassed": true
+    },
+    "arrow_volley": {
+      "duration": 0.3316458333333333,
+      "peakDb": -5.692684671537722,
+      "rms": 0.09703334981842,
+      "sha256": "70e1a49b4b3aba44b3e55bc7bdacb2ffa867b4c0b43b031e0c26d975c954499d",
+      "bytes": 7548,
+      "decodePassed": true
+    },
+    "frost_arrow": {
+      "duration": 0.23075,
+      "peakDb": -3.6024041721448103,
+      "rms": 0.10704927557450462,
+      "sha256": "51d4dbd080bc3ecda73cd46b4f6ee61864424062eef952fdbdd623a51ca16895",
+      "bytes": 6388,
+      "decodePassed": true
+    },
+    "frost_impact": {
+      "duration": 0.23075,
+      "peakDb": 1.47891084376068,
+      "rms": 0.11526821816035493,
+      "sha256": "d750cf88097d0c3e69920e6e14496e1444e1a9da01aa4cca8f5ec8cb44c57b4f",
+      "bytes": 6526,
+      "decodePassed": true
+    }
+  },
+  "uniqueFiles": 19,
+  "keys": 20,
+  "audioBytes": 185373
+}

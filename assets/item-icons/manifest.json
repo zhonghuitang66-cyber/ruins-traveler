@@ -1,0 +1,1649 @@
+{
+  "version": 2,
+  "items": {
+    "rust_sword": {
+      "url": "assets/item-icons/rust_sword.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "9383cac7d1a66f4335a5fbcb669350f438cdd4f666c91979c45a6c09169a13db",
+      "bytes": 12184,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "broad_sword": {
+      "url": "assets/item-icons/broad_sword.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "d6244876880f3eed2c28b408cb462c65f261f8bcfc34e80a53aebe96979d08f8",
+      "bytes": 15888,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 1,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "war_hammer": {
+      "url": "assets/item-icons/war_hammer.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "a605e89488fb52453bcfdae5b76921b51df7f933b59280ddc41b69aee98d211a",
+      "bytes": 17490,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 2,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "short_bow": {
+      "url": "assets/item-icons/short_bow.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "f9a1ae39ab32991d273684274843d030c919bcd12ab28538567ed061bec36e2a",
+      "bytes": 10680,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 3,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "long_bow": {
+      "url": "assets/item-icons/long_bow.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "574590c8a3b025e4b0724d3aff05042b22614bab7a47a9af31628160a34b2163",
+      "bytes": 13186,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 4,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "heavy_bow": {
+      "url": "assets/item-icons/heavy_bow.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "805a6896e3d9a3411a51a021f7180d13ec0a300ea80cb439a7a3ef28113a7275",
+      "bytes": 14828,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 5,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "leather_coat": {
+      "url": "assets/item-icons/leather_coat.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "1c7d8fa2ee42abf785d7156b9d505e5ee7ef91111df8160f3b31f98594847dfd",
+      "bytes": 25574,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 6,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "guard_coat": {
+      "url": "assets/item-icons/guard_coat.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "f1ddbbcae77bfe0b074b2ed8c4dcbf934aad3d408a2e40f13721e1c7dad0baf7",
+      "bytes": 27854,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 7,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "court_plate": {
+      "url": "assets/item-icons/court_plate.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "10f410189d34dc29ab0541a91e970cb9089db1e9b4207db8194be5c133080e88",
+      "bytes": 31072,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 8,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "iron_helm": {
+      "url": "assets/item-icons/iron_helm.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "614ce509b2aedbc77d85758cd8cea824b55708f0f50257cb1fb84780ac049068",
+      "bytes": 22316,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 9,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "leather_gloves": {
+      "url": "assets/item-icons/leather_gloves.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "6313fe4cf3eb06cc95d593e5031f813ae41e5638672910a85f5512c28a6758b4",
+      "bytes": 25590,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 10,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "guard_legs": {
+      "url": "assets/item-icons/guard_legs.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "44dbc74a5b3a1318d82629068633f233d4f7e053ac065d5fde67b1700128d841",
+      "bytes": 30640,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 11,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "path_boots": {
+      "url": "assets/item-icons/path_boots.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "f660b79324090aec1a5e7f47f592970a03a07c0fdca7ca2ca2ff613be4e5b538",
+      "bytes": 31562,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 12,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "amber_ring": {
+      "url": "assets/item-icons/amber_ring.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "7ee6caadefa5df3e0aaa459045209d404f12c79b0741a8541e74d0f729ae1a20",
+      "bytes": 37472,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 13,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "dawn_amulet": {
+      "url": "assets/item-icons/dawn_amulet.webp",
+      "job_id": "job_69d64763bbdb48e69df28199bacf82da",
+      "source_sha256": "68109162336f3683e56fadc21e29912d37e93c67a0d20d3a0618d7f9a685a27a",
+      "sha256": "1eb997029f72cf3468f7a9e71958a5d0e0e85b6f0d77aca7feb14483250e4879",
+      "bytes": 22286,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        5,
+        3
+      ],
+      "source_cell": 14,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "oak_log": {
+      "url": "assets/item-icons/oak_log.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "e97dd502430d9d83ed585cc66029e01eabe49a770654e0ad991716d93501cdd1",
+      "bytes": 32570,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "cracked_tile": {
+      "url": "assets/item-icons/cracked_tile.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "e249da6b1b02fd109af8289e68e13b420e4b88949904ddaf26c91f5cd7d391f4",
+      "bytes": 27300,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 1,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "linen_roll": {
+      "url": "assets/item-icons/linen_roll.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "e15dfce4e29883002f36ee84c3cbc8a75372caac8b23cbac9da005f8b00c88ef",
+      "bytes": 28916,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 2,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "iron_ore": {
+      "url": "assets/item-icons/iron_ore.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "90f1208cbdcef0103f474fab8defa721ddaf16289f364e87cf79912cc25c4601",
+      "bytes": 30948,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 3,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "silver_coin": {
+      "url": "assets/item-icons/silver_coin.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "3d472c5e3bc85d1f928c720a4782b4f2b6f4d8f409f51fabb2f9f6cd95fe523b",
+      "bytes": 29676,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 4,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "resin_flask": {
+      "url": "assets/item-icons/resin_flask.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "76b581332db1c287918ceeffe404e2bd2d93bdc5f0a7928e099d88d01f54dacc",
+      "bytes": 29762,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 5,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "woven_banner": {
+      "url": "assets/item-icons/woven_banner.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "205b3e4f150919a3cba4312a024d69112a07b3df73049b318fb00686bf78743c",
+      "bytes": 33560,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 6,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "crystal_shard": {
+      "url": "assets/item-icons/crystal_shard.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "ce19157a5ae45cc5528874baa0de6259a6870406ca6ffeb0a95d441f1f4428f0",
+      "bytes": 17630,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 7,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "ritual_vase": {
+      "url": "assets/item-icons/ritual_vase.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "0240cc98e6fc5529372b338c3f1d5c4a9811eb881ef9da9988942aef8ee100ac",
+      "bytes": 28864,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 8,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "royal_tapestry": {
+      "url": "assets/item-icons/royal_tapestry.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "1724e718cf355054fabc4650cfecf244840a4a38702321f56198135765a82dbd",
+      "bytes": 40962,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 9,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "sun_medallion": {
+      "url": "assets/item-icons/sun_medallion.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "7edd2cef90ab2af64609136c956a33aa5c951cc05bab6abe316920ab17bf018c",
+      "bytes": 24876,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 10,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "crimson_statue": {
+      "url": "assets/item-icons/crimson_statue.webp",
+      "job_id": "job_0f845b15eee04a76ab1bc62f33e7a345",
+      "source_sha256": "1d5b573873be8c468360106153a57511f52e19a62976eb17befb388c43d7b140",
+      "sha256": "bc867023882a61793685167a1361a5875bc382392b0585f8f6fd770743b6daeb",
+      "bytes": 43228,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        3
+      ],
+      "source_cell": 11,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "bone_die": {
+      "url": "assets/item-icons/bone_die.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "9bfd5774b5dc7fc5b535983d0504f9d44f220119bc1bc044b62a83aeb3e9befd",
+      "bytes": 41988,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "copper_wire": {
+      "url": "assets/item-icons/copper_wire.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "06eb6d961fae40c689fbcb6fa3f5a5cd9654ab2842540299977f444b4bc3ee3d",
+      "bytes": 51050,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 1,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "broken_flute": {
+      "url": "assets/item-icons/broken_flute.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "237b2bfa7f2fa63a97790d92615220d235b0df1b857952d6fdccaece08cbfc4f",
+      "bytes": 12526,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 2,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "clay_bowl": {
+      "url": "assets/item-icons/clay_bowl.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "f476309874e7b185e3ad58e2ecf9bd7be65a68d863b09738f8c44b4fc3a4e441",
+      "bytes": 28874,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 3,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "rust_pan": {
+      "url": "assets/item-icons/rust_pan.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "b15ce1439b79aeefddd951b68d184bb4746f85542f0710d2485166e568bac24e",
+      "bytes": 24176,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 4,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "weathered_tablet": {
+      "url": "assets/item-icons/weathered_tablet.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "f0f36ec98723f1cf53adadf47b6a93d0d98fc698b822e88ccefb09087d29f07e",
+      "bytes": 19918,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 5,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "jade_bead": {
+      "url": "assets/item-icons/jade_bead.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "d5e249f09254e7c417402f9a31f31f0f927c052a6295af0d4a8f340a400a5e32",
+      "bytes": 19138,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 6,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "inkstone": {
+      "url": "assets/item-icons/inkstone.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "f37c17045e5cbf152ced164ff931e7908fec42e603832c945926593c13b39c13",
+      "bytes": 24982,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 7,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "copper_telescope": {
+      "url": "assets/item-icons/copper_telescope.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "c2bbcb1ccba3106fdf43bf93a63e08bc4179f952f62003dc36cd56414479ae04",
+      "bytes": 18044,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 8,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "hunter_horn": {
+      "url": "assets/item-icons/hunter_horn.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "0f31f47444a7ae9d4917bf962f8c8e3e9cceeec35b4502f165ae793fe774fb65",
+      "bytes": 23402,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 9,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "carved_box": {
+      "url": "assets/item-icons/carved_box.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "9ecb7637c1146b4304e304635903df2dd7f9f07ab9cfde7d5740b80f8a41b1e4",
+      "bytes": 37364,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 10,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "moss_mosaic": {
+      "url": "assets/item-icons/moss_mosaic.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "27171bdc427fab20eb70b2a10fb4d1444433860f329564ca2709d979ba5d9eb2",
+      "bytes": 55898,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 11,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "sapphire_eye": {
+      "url": "assets/item-icons/sapphire_eye.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "89cbda70ae1e0cb9410014caf0aaf2bb92641003ed0584b66110de666c0fb190",
+      "bytes": 44744,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 12,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "silver_chalice": {
+      "url": "assets/item-icons/silver_chalice.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "cc07f464059cc3b87f8f988cd2aba20f73a2bb9a739d4861a52133e841e16523",
+      "bytes": 15306,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 13,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "azure_scroll": {
+      "url": "assets/item-icons/azure_scroll.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "230e652ca7615b2432adf5581ea0252a1d78e9900a788f1bd0da1d2a7aad7cd2",
+      "bytes": 18960,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 14,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "astrolabe": {
+      "url": "assets/item-icons/astrolabe.webp",
+      "job_id": "job_5fa9216c2af443049e3e3792c964f67a",
+      "source_sha256": "0d253ca7ef8139be8b02429396cca9ce6c1a3a2ac987559a99f215c0ab2cf4c2",
+      "sha256": "eb1b07dc891a4402aff93c4451bc842048e21b714450cb589e0761e15c5a6281",
+      "bytes": 42616,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 15,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "glazed_urn": {
+      "url": "assets/item-icons/glazed_urn.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "c28ceed5e36e1dfd09c09438567d2e84ae20f9d10eb658cd83a0b13d948279a2",
+      "bytes": 21080,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "moon_screen": {
+      "url": "assets/item-icons/moon_screen.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "c33643787ffeeb7e645ebf0c73debfae93e1c63c69af2c323cd53413e0db1a9a",
+      "bytes": 39776,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 1,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "amethyst_seal": {
+      "url": "assets/item-icons/amethyst_seal.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "0b51ed8d623a0cd35f9acd6143020830050a57b58701b3132b669f42505f4d9c",
+      "bytes": 23734,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 2,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "royal_pipe": {
+      "url": "assets/item-icons/royal_pipe.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "bc75c252aa8e659070a393b59f51c3ff8d69d54e2d8218428bad73b87a2c1284",
+      "bytes": 14152,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 3,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "obsidian_wand": {
+      "url": "assets/item-icons/obsidian_wand.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "8849977afa912be3640f070d0a61755f1e9a07f219a9f75eb13e3b82c4807e12",
+      "bytes": 7684,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 4,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "velvet_casket": {
+      "url": "assets/item-icons/velvet_casket.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "b3a6040395012220d62541787820431bcae8ad13a65aec720a103b0543ded40b",
+      "bytes": 38806,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 5,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "oracle_mask": {
+      "url": "assets/item-icons/oracle_mask.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "99626eac9ce97330ec9ae3c2d75d2958470c0650a6bad5ec31718cc3e18b5c2b",
+      "bytes": 22204,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 6,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "violet_altarpiece": {
+      "url": "assets/item-icons/violet_altarpiece.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "3d11b6c9f6520cf8093fcc7ad7f5404e674caea788ebd82c77d08442b3d71b5a",
+      "bytes": 46536,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 7,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "golden_scarab": {
+      "url": "assets/item-icons/golden_scarab.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "e3ce16641248d84c76aa269279ab31651a73c22be33d2741b30df017f2565de5",
+      "bytes": 36362,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 8,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "sun_hourglass": {
+      "url": "assets/item-icons/sun_hourglass.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "a51c796408c3bee39174f8fcbfbc83b2ceaa7badcf3e12b97095f114bd86972e",
+      "bytes": 20066,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 9,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "golden_lyre": {
+      "url": "assets/item-icons/golden_lyre.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "b5893d6e451e887a29f40e211e6544ac1b0523f682ee7ce21b493f953eb3b50c",
+      "bytes": 23830,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 10,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "royal_censer": {
+      "url": "assets/item-icons/royal_censer.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "7c2b373b41ea7a4225be42ebac5f20b402367aa60a097cac0b5060dc1786eb7a",
+      "bytes": 33720,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 11,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "phoenix_ewer": {
+      "url": "assets/item-icons/phoenix_ewer.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "d108e6cfce781aa0f1d00fbe35c05b5e5275eadf87e2b6db2e293f08aff6c17c",
+      "bytes": 29076,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 12,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "solar_altar": {
+      "url": "assets/item-icons/solar_altar.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "5c185d8f55e9fac7c45cf2a6cce65fec713e62e198cbff6d8ec197a425e13bc5",
+      "bytes": 35042,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 13,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "ruby_heart": {
+      "url": "assets/item-icons/ruby_heart.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "cedc811b80d8bb796bda92f11facc8a11b89859edf8c803cbef944fc3a62bba7",
+      "bytes": 36816,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 14,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "blood_crown": {
+      "url": "assets/item-icons/blood_crown.webp",
+      "job_id": "job_3282a38155c34561884c7d42278b7b7a",
+      "source_sha256": "a42e3a1cb3d0534a4529808b4298820ea1ada7439851eb1b5f86d5258d3aa331",
+      "sha256": "fbe1ebaccf25428b76d65c9d4b5436e3b66c6c901de98a7118eda6740fa1c7e5",
+      "bytes": 40458,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 15,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "dragon_reliquary": {
+      "url": "assets/item-icons/dragon_reliquary.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "51738a12740416279fe8a0901ddbf338841a68633269d1cea56721c63c16ac02",
+      "bytes": 14708,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "crimson_orb": {
+      "url": "assets/item-icons/crimson_orb.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "3842a32a077608f188fdc8ed4cb107a7d0eab240e99fb57565b20de66570000c",
+      "bytes": 29592,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 1,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "imperial_armor_relic": {
+      "url": "assets/item-icons/imperial_armor_relic.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "21a7beafd4059b99f5b80e76c816953261eabf768f427beddaf2241de63d80dd",
+      "bytes": 22512,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 2,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "red_royal_banner": {
+      "url": "assets/item-icons/red_royal_banner.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "232b6dd53a8a89c99977cc94985ebc23696c4de0b3e8256ad639be90c0bf3d47",
+      "bytes": 19730,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 3,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "salt_pouch": {
+      "url": "assets/item-icons/salt_pouch.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "59cf79d6257c24b29bce5d6c41d8206410d7795b575aeb83e40da50706ea0a14",
+      "bytes": 36320,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 4,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "emerald_broach": {
+      "url": "assets/item-icons/emerald_broach.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "f9411b951d27e47ed8d70bd6b95465e3413ed007d5237b9429a0064c0fb58a85",
+      "bytes": 27520,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 5,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "coin": {
+      "url": "assets/item-icons/coin.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "700e957eda1aca89b268af843168e13cb3c31154bec3c0e034eb61fe62595f3d",
+      "bytes": 36820,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 6,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "scrap": {
+      "url": "assets/item-icons/scrap.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "7fb05f684fce2b5163d0915946e957f3cd9142f4ceaebb976037e925a85fd906",
+      "bytes": 28242,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 7,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "amber": {
+      "url": "assets/item-icons/amber.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "0a2dfdd7b6e9e327d50acb35262c8216fff543fcd9ace69bd885c6a90fefc827",
+      "bytes": 39394,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 8,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "herb": {
+      "url": "assets/item-icons/herb.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "cc50afd15b86c8b7dd5fda8ccbf184a5cbe6dbf8796dce343503bb0dde20f8ad",
+      "bytes": 33812,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 9,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "health": {
+      "url": "assets/item-icons/health.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "061bdc3d22a288556a02bb706fd17aa3e420931bf467b6272ce7eedbd2255ff7",
+      "bytes": 21714,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 10,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "mana": {
+      "url": "assets/item-icons/mana.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "448d0517c7284dff8e38e15b256e59ce191188a1b8f359dce9a4769355425871",
+      "bytes": 22136,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 11,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "blade": {
+      "url": "assets/item-icons/blade.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "70da677cfc42130477f9a1985a0e57255d2c68576a7f199750ddfe11fe632a53",
+      "bytes": 15154,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 12,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "armor": {
+      "url": "assets/item-icons/armor.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "f1a14099e9918f0b04e8dfe7e834ba3092c967354c19057c2106a4c863b23305",
+      "bytes": 32268,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 13,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "charm": {
+      "url": "assets/item-icons/charm.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "bc95e93af0371c3b5bc8301fb0322a89333cca6850338df7c9bf0a67d5f0db36",
+      "bytes": 16714,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 14,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "crown": {
+      "url": "assets/item-icons/crown.webp",
+      "job_id": "job_714f9367857f4cdcbbcd3388af387b5c",
+      "source_sha256": "770feb4cef7217b538eda5d4dc72b08ac1a2ee4920676d71b85b211de54e4fc2",
+      "sha256": "0084267e598cabbe75b5e2280669fcdd372f80430eabd780f9879f4c949ba938",
+      "bytes": 37080,
+      "size": [
+        192,
+        192
+      ],
+      "source_grid": [
+        4,
+        4
+      ],
+      "source_cell": 15,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa generated lowpoly fantasy inventory icon; user-authorized game assets"
+    },
+    "silver_compass": {
+      "url": "assets/item-icons/silver_compass.webp",
+      "job_id": "job_b695cea493e741a08936098fc9c35b71",
+      "source_sha256": "66c0afbe75115d5f6fd403640bc0d11be0ddcd96ba31aae29f43f35cb4fef152",
+      "sha256": "0ad7f087142d2049ea8926e5be3551cb26b772abc5e012c8c11afd9f9c29e12a",
+      "bytes": 37340,
+      "size": [
+        192,
+        192
+      ],
+      "source_cell": 0,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa lowpoly fantasy collectible icon, no rarity frame baked."
+    },
+    "tide_lens": {
+      "url": "assets/item-icons/tide_lens.webp",
+      "job_id": "job_b695cea493e741a08936098fc9c35b71",
+      "source_sha256": "66c0afbe75115d5f6fd403640bc0d11be0ddcd96ba31aae29f43f35cb4fef152",
+      "sha256": "a022b23d9d061c1131385a041fe52f0fc50ebf971433235cc41798871d9fdb37",
+      "bytes": 35542,
+      "size": [
+        192,
+        192
+      ],
+      "source_cell": 1,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa lowpoly fantasy collectible icon, no rarity frame baked."
+    },
+    "moon_codex": {
+      "url": "assets/item-icons/moon_codex.webp",
+      "job_id": "job_b695cea493e741a08936098fc9c35b71",
+      "source_sha256": "66c0afbe75115d5f6fd403640bc0d11be0ddcd96ba31aae29f43f35cb4fef152",
+      "sha256": "498481c8482e03a2df16c39a3feec9d14db5cf0112576d249f2e112ef9c7c3d5",
+      "bytes": 42444,
+      "size": [
+        192,
+        192
+      ],
+      "source_cell": 2,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa lowpoly fantasy collectible icon, no rarity frame baked."
+    },
+    "royal_sextant": {
+      "url": "assets/item-icons/royal_sextant.webp",
+      "job_id": "job_b695cea493e741a08936098fc9c35b71",
+      "source_sha256": "66c0afbe75115d5f6fd403640bc0d11be0ddcd96ba31aae29f43f35cb4fef152",
+      "sha256": "108a98cca8c56273738b43a80728d5a9c2926b46093f3bf87dbf64a4ea02375a",
+      "bytes": 37138,
+      "size": [
+        192,
+        192
+      ],
+      "source_cell": 3,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "art": "Original Meowa lowpoly fantasy collectible icon, no rarity frame baked."
+    }
+  },
+  "process": "Inspected source sheets. Full-sheet alpha components assigned by object center to requested cells, avoiding nominal grid cut of protruding tips; cleaned neighbor fragments, preserved main accessory components, padded192 lossless WebP."
+}

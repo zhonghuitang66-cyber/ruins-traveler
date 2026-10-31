@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "family": "Tripo P2-20260801 from actual supplied three-view sheets",
+  "monsters": {
+    "sword": {
+      "approved": true,
+      "url": "sword.glb",
+      "height": 2.1,
+      "yawRadians": -1.5707963267948966,
+      "clips": {
+        "idle": "idle",
+        "run": "run",
+        "attack": "monster_attack_local",
+        "charge": "monster_charge_local"
+      },
+      "source": "Tripo P2 real front/left/back; idle/run Tripo presets; attack/charge locally authored skeleton clips",
+      "quality": "prototype playable; not final weapon-grip or performance approval",
+      "triangles": 4510,
+      "bones": 45,
+      "sha256": "fff2ea27e98e31d370ac6fb8c1b562f7a428b20dd96c6efbc33e2216519ae8b6"
+    }
+  }
+}

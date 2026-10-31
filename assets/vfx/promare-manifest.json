@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "atlases": {
+    "promare-slash": {
+      "url": "../assets/vfx/promare-slash.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "frames": 8,
+      "unique_frames": 8,
+      "source_dimensions": [
+        640,
+        640
+      ],
+      "cell_size": [
+        256,
+        256
+      ],
+      "bytes": 193768,
+      "sha256": "41d2700f2978305d3616415f339c780bcf415cb6c66326faebaad1d1d4bfc9f7",
+      "job_id": "job_1b719c4b9c394eb4929a749680bce345",
+      "source_sha256": "fbeaeabfafa5f6189d6a9fa4d03e871e9fec11d3e72ce55771cf6b22f7729fb4",
+      "alpha_extrema_by_frame": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "visible_bounds_by_frame": [
+        [
+          51,
+          83,
+          590,
+          556
+        ],
+        [
+          46,
+          84,
+          589,
+          556
+        ],
+        [
+          47,
+          86,
+          562,
+          553
+        ],
+        [
+          55,
+          83,
+          568,
+          552
+        ],
+        [
+          45,
+          82,
+          590,
+          551
+        ],
+        [
+          43,
+          82,
+          590,
+          536
+        ],
+        [
+          41,
+          82,
+          591,
+          512
+        ],
+        [
+          44,
+          86,
+          363,
+          245
+        ]
+      ],
+      "process": "Real Meowa HD frames decoded, fit with margins, lossless transparent atlas packing. No procedural motion or vector replacement.",
+      "source": "Original Meowa art, palette/geometry informed by referenced public video; no copied frames."
+    },
+    "promare-impact": {
+      "url": "../assets/vfx/promare-impact.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "frames": 8,
+      "unique_frames": 8,
+      "source_dimensions": [
+        640,
+        640
+      ],
+      "cell_size": [
+        256,
+        256
+      ],
+      "bytes": 266672,
+      "sha256": "43dbc5b10ce12465e9a65eb6bcfd18bae9b4e3ac8a7ed10d0330b7a71315a2ce",
+      "job_id": "job_d64196ceadaf4cabbe0ddc0be9fa3a4c",
+      "source_sha256": "08da17957ad5cfb3283fb7b9618a25abd6de3ac0049f7ebb07693ae2019e3218",
+      "alpha_extrema_by_frame": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "visible_bounds_by_frame": [
+        [
+          73,
+          50,
+          568,
+          589
+        ],
+        [
+          36,
+          48,
+          608,
+          593
+        ],
+        [
+          9,
+          48,
+          630,
+          594
+        ],
+        [
+          24,
+          52,
+          640,
+          594
+        ],
+        [
+          0,
+          94,
+          624,
+          595
+        ],
+        [
+          41,
+          87,
+          572,
+          586
+        ],
+        [
+          259,
+          214,
+          483,
+          488
+        ],
+        null
+      ],
+      "process": "Real Meowa HD frames decoded, fit with margins, lossless transparent atlas packing. No procedural motion or vector replacement.",
+      "source": "Original Meowa art, palette/geometry informed by referenced public video; no copied frames."
+    },
+    "promare-storm": {
+      "url": "../assets/vfx/promare-storm.webp",
+      "columns": 4,
+      "rows": 2,
+      "durations": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "frames": 8,
+      "unique_frames": 8,
+      "source_dimensions": [
+        640,
+        640
+      ],
+      "cell_size": [
+        256,
+        256
+      ],
+      "bytes": 388024,
+      "sha256": "b8f5d0ce52a2b22a3f33bccf74fe0a7080e0904cb2555d7d97a32f428698874a",
+      "job_id": "job_884289d51657420087c3efaca313becd",
+      "source_sha256": "f44537034ea9c8f73945c95a3683860ff5a4154b5314361608bb242a5ad3497b",
+      "alpha_extrema_by_frame": [
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ],
+        [
+          0,
+          255
+        ]
+      ],
+      "visible_bounds_by_frame": [
+        [
+          80,
+          50,
+          558,
+          590
+        ],
+        [
+          78,
+          52,
+          572,
+          589
+        ],
+        [
+          74,
+          51,
+          570,
+          590
+        ],
+        [
+          72,
+          52,
+          559,
+          590
+        ],
+        [
+          54,
+          56,
+          555,
+          589
+        ],
+        [
+          46,
+          141,
+          576,
+          589
+        ],
+        [
+          54,
+          224,
+          586,
+          589
+        ],
+        [
+          29,
+          318,
+          608,
+          589
+        ]
+      ],
+      "process": "Real Meowa HD frames decoded, fit with margins, lossless transparent atlas packing. No procedural motion or vector replacement.",
+      "source": "Original Meowa art, palette/geometry informed by referenced public video; no copied frames."
+    }
+  }
+}
