@@ -4,7 +4,7 @@ const KEY='autumn-active-raid-v1';
 const fields=['kind','time','bag','bagCapacity','equipment','player','cool','world','enemies','spawnCorner','nextHunterAt','nextExitAt','nextId','lastLegalPosition','speedPotionUntil','burstSpeedUntil','pendingFirstKills'];
 export function captureRaid(game,sessionId){
  const data={version:1,sessionId,state:'active'};
- for(const key of fields)data[key]=structuredClone(key==='enemies'?game.enemies.map(e=>{const row={...e};delete row.botWindup;delete row.combatTarget;delete row.target;delete row.path;row.charge=0;row.bossActionId=null;return row}):game[key]);
+ for(const key of fields)data[key]=structuredClone(key==='enemies'?game.enemies.map(e=>{const row={...e};if(row.networkHuman){row.botCd=1;row.cd=1;row.state='hunt'}delete row.networkHuman;delete row.networkId;delete row.networkRole;delete row.botWindup;delete row.combatTarget;delete row.target;delete row.path;row.charge=0;row.bossActionId=null;return row}):game[key]);
  data.packs=structuredClone(game.packs);return data;
 }
 export function createRaidCheckpoint(storage=globalThis.localStorage){

@@ -1,0 +1,13 @@
+{
+  "game":"遗迹旅人",
+  "version":"0.3.0",
+  "date":"2026-10-31",
+  "apkBytes":61979579,
+  "apkSha256":"6114c244246a04369004986aac7aa3c6a4c93e5ed7a67b0af9b4433cb00ca81b",
+  "mainTests":{"passed":428,"failed":0},
+  "backendTests":{"node":20,"python":10,"pythonRealHttpWebSocket":4},
+  "publicProtocolChecks":{"passed":12,"failed":0,"tlsValidationEnabled":true,"twoPlayerMatchMs":1412,"worldInitializationMs":1750,"serverSoloFallbackMs":30002,"sharedLootAndInventory":true,"bidirectionalPvp":true,"sixMonsterHashesMatch":true,"monsterBytes":12965056},
+  "scope":"Real public HTTPS/WSS with local complete Game clients; not two-phone visual/touch/audio acceptance.",
+  "newApkTwoPhoneAcceptance":false,
+  "previousVersionSixModelAndroidParse":"Verified separately in v0.2.0; see release-verification.json"
+}

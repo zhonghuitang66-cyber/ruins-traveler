@@ -9,9 +9,10 @@ import android.webkit.*;
 import java.io.*;
 import java.util.*;
 
-/** Offline-only secure-origin asset host. No network permission or JS/native bridge. */
+/** Local secure-origin assets plus the fixed HTTPS game service. No JS/native bridge. */
 public final class MainActivity extends Activity {
     private WebView web;
+    private boolean transportProbeStarted=false;
     private static final String HOST="appassets.androidplatform.net";
     private void immersive(){getWindow().getDecorView().setSystemUiVisibility(
         View.SYSTEM_UI_FLAG_FULLSCREEN|View.SYSTEM_UI_FLAG_HIDE_NAVIGATION|
@@ -20,12 +21,19 @@ public final class MainActivity extends Activity {
         super.onCreate(saved);getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON|WindowManager.LayoutParams.FLAG_FULLSCREEN);immersive();
         web=new WebView(this);web.setBackgroundColor(0xffd6b46c);setContentView(web);
         WebSettings s=web.getSettings();s.setJavaScriptEnabled(true);s.setDomStorageEnabled(true);
+        s.setUserAgentString(s.getUserAgentString()+" RuinsTravelerAndroid/0.3.0");
         s.setAllowFileAccess(false);s.setAllowContentAccess(false);s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
         s.setMediaPlaybackRequiresUserGesture(true);s.setSupportZoom(false);
         web.setWebChromeClient(new WebChromeClient(){
             @Override public boolean onConsoleMessage(ConsoleMessage m){android.util.Log.d("AutumnRuins",m.message()+" @"+m.lineNumber());return true;}
         });
         web.setWebViewClient(new WebViewClient(){
+            @Override public void onPageFinished(WebView v,String url){
+                if(!transportProbeStarted&&getIntent().getBooleanExtra("onlineSelfTest",false)&&url.equals("https://"+HOST+"/index.html")){
+                    transportProbeStarted=true;
+                    v.evaluateJavascript("fetch('https://114.66.36.160:9443/health').then(r=>{if(!r.ok)throw Error('http_'+r.status);return r.json()}).then(d=>console.log('ONLINE_TLS_PROBE '+JSON.stringify({ok:d.ok===true}))).catch(e=>console.log('ONLINE_TLS_PROBE '+JSON.stringify({ok:false,error:String(e)})));var probeSocket=new WebSocket('wss://114.66.36.160:9443/ws');probeSocket.onopen=()=>{console.log('ONLINE_WSS_PROBE '+JSON.stringify({ok:true}));probeSocket.close(1000,'transport-probe')};probeSocket.onerror=()=>console.log('ONLINE_WSS_PROBE '+JSON.stringify({ok:false}));",null);
+                }
+            }
             @Override public boolean shouldOverrideUrlLoading(WebView v,WebResourceRequest r){return !HOST.equals(r.getUrl().getHost());}
             @Override public WebResourceResponse shouldInterceptRequest(WebView v,WebResourceRequest r){return resource(r.getUrl());}
         });
@@ -33,6 +41,8 @@ public final class MainActivity extends Activity {
     }
     private WebResourceResponse resource(Uri uri){
         try{
+            String apiPath=uri.getPath();
+            if("https".equals(uri.getScheme())&&"114.66.36.160".equals(uri.getHost())&&uri.getPort()==9443&&apiPath!=null&&(apiPath.startsWith("/api/")||apiPath.equals("/health")))return null;
             if(!"https".equals(uri.getScheme())||!HOST.equals(uri.getHost()))return missing();
             String p=uri.getPath();if(p==null||p.contains("..")||p.indexOf('\\')>=0)return missing();
             if(p.equals("/"))p="/index.html";

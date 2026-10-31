@@ -1,0 +1,15 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {createService} from '../multiplayer-server/server.mjs';import {createOnlineClient} from '../src/online-client.js';import {createOnlineGame} from '../src/online-game.js';import {Game} from '../src/core.js';
+const sleep=()=>new Promise(resolve=>setTimeout(resolve,2));
+test('actual HTTP plus native WebSocket carries authenticated Game initialization, shared loot RPC and peer takeover',async()=>{
+ let clock=1000;const service=createService({now:()=>clock,hubOptions:{autoTimers:false}}),address=await service.listen(),httpBase=`http://127.0.0.1:${address.port}`,wsBase=`ws://127.0.0.1:${address.port}`,NativeWS=globalThis.WebSocket,clients=[],nets=[],errors=[];
+ try{
+  for(let i=0;i<2;i++){const rows=new Map();class BridgeWS extends NativeWS{constructor(url){super(url.replace('wss://wire.example',wsBase))}}const client=createOnlineClient({endpoint:'https://wire.example/',storage:{getItem:k=>rows.get(k)??null,setItem:(k,v)=>rows.set(k,v)},now:()=>clock,fetchImpl:(url,init)=>fetch(url.replace('https://wire.example',httpBase),init),WebSocketImpl:BridgeWS,onEvent(type,data){if(type==='online-error')errors.push(data);nets[i]?.receive(type,data)}});clients.push(client)}
+  const auth=await Promise.all(clients.map((c,i)=>c.login(`玩家${i+1}`)));assert.ok(auth.every(r=>r.ok));const matchPromises=clients.map((c,i)=>c.match({role:i?'archer':'swordsman'}));const matches=await Promise.all(matchPromises);assert.ok(matches.every(r=>r.ok));assert.equal(matches[0].roomId,matches[1].roomId);
+  const games=[new Game(),new Game()];games[0].start('swordsman');games[1].start('archer');games[0].world.walls=[];games[0].enemies=[];games[0].bots=[];games[0].player.x=games[0].player.z=0;
+  for(let i=0;i<2;i++){nets[i]=createOnlineGame({game:games[i],client:clients[i],localId:auth[i].profile.id});nets[i].start(matches[i])}
+  async function advance(steps){for(let j=0;j<steps;j++){clock+=50;nets.forEach(n=>n.update(.05));await sleep();service.hub.tick();await sleep()}}
+  await advance(45);assert.ok(nets.every(n=>n.isReady()),JSON.stringify(errors));const authority=nets.findIndex(n=>!n.isGuest()),visitor=1-authority,hostGame=games[authority],peer=nets[authority].getAuthorityPeer();Object.assign(hostGame.player,{x:10,z:10});Object.assign(peer.player,{x:0,z:0});hostGame.packs=[{id:'actual-wire-pack',x:0,z:0,type:'drop',capacity:30,items:[{id:'coin',n:9,x:0,y:0}]}];await advance(15);assert.ok(games[visitor].packs.some(p=>p.id==='actual-wire-pack'));nets[visitor].call('takeLoot',['actual-wire-pack',0]);await advance(15);assert.equal(peer.bag.find(r=>r.id==='coin').n,9);assert.equal(games[visitor].bag.find(r=>r.id==='coin').n,9);assert.equal(hostGame.packs.length,0);assert.deepEqual(errors,[]);
+  await clients[authority].leave();await advance(5);assert.equal(nets[visitor].isActive(),false);assert.equal(games[visitor].networkPassive,false);assert.equal(games[visitor].bag.find(r=>r.id==='coin').n,9);
+ }finally{nets.forEach(n=>n.stop({fallback:true}));clients.forEach(c=>c.dispose());await service.close()}
+});

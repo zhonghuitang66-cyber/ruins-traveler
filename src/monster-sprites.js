@@ -11,8 +11,8 @@ export function createMonsterSprite({type,catalog,placeholder,camera,loadTexture
  const spec=catalog?.monsters?.[type==='archer'?'bow':type],visual=createSpriteCharacter({placeholder,camera,height:type==='boss'?4.4:2.1,loadTexture:loadTexture??sharedTexture,maxTextures:2});
  let previous={x:null,z:null},state='idle',lastAttack=null,released=false;
  async function load(){return spec?visual.load({...spec,baseUrl:spec.baseUrl??new URL('../assets/monster-sprites/monster-runtime.json',import.meta.url).href}):{ok:false,reason:'missing_monster_manifest'}}
- function update(dt,enemy,{paused=false,held=false,aim,camera:nextCamera}={}){
-  if(released||!enemy||paused)return;const moving=previous.x!==null&&Math.hypot(enemy.x-previous.x,enemy.z-previous.z)>.001;previous={x:enemy.x,z:enemy.z};
+ function update(dt,enemy,{paused=false,held=false,aim,camera:nextCamera,visualMoving}={}){
+  if(released||!enemy||paused)return;const moving=typeof visualMoving==='boolean'?visualMoving:previous.x!==null&&Math.hypot(enemy.x-previous.x,enemy.z-previous.z)>.001;previous={x:enemy.x,z:enemy.z};
   if(held)return;visual.setFacing(aim,nextCamera??camera);
   if(enemy.charge>0){visual.setLocomotion('idle');if(state!=='charge'){visual.cancelAttack();visual.setCharge(true)}state='charge'}
   else{if(state==='charge')visual.setCharge(false);state=moving?'run':'idle';visual.setLocomotion(state,{aim,camera:nextCamera??camera})}

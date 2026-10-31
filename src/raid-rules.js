@@ -16,15 +16,15 @@ export function resetRaid(game,rng=Math.random){
 export function tickRaid(game,dt,{move,dist,lineClear}){
  const walls=game.world.walls;
  for(const b of game.bots||[]){
-  if(b.hp<=0)continue;
+  if(b.networkHuman||b.hp<=0)continue;
   if(b.state==='scavenge'&&(b.clearedBlock||game.time>=180)){b.state='queued';b.readyAt=game.time}
  }
- const next=(game.bots||[]).find(b=>b.hp>0&&b.state==='queued');
+ const next=(game.bots||[]).find(b=>!b.networkHuman&&b.hp>0&&b.state==='queued');
  if(next&&game.time+1e-8>=game.nextHunterAt){next.state='hunt';next.departedAt=game.time;game.nextHunterAt=game.time+60;game.emit('toast',{text:'一名遗迹猎手开始追踪你'})}
  for(const b of game.bots||[]){
-  if(b.hp<=0||b.stun>0||b.knockup>0)continue;if(b.hp<80&&b.inventory.length&&game.world.exits.length)b.state='extract';if(b.state==='extract'){const exit=game.world.exits[0];if(!exit){b.state='hunt';continue}const d=dist(b,exit);if(d<3){b.extractProgress=(b.extractProgress||0)+dt;if(b.extractProgress>=3){b.hp=0;b.extracted=true;game.world.exits.shift();if(game.nextExitAt===null)game.nextExitAt=game.time+300;game.emit('toast',{text:'一名猎手已撤离，5分钟后中央刷新法阵'})}}else{b.extractProgress=0;move(b,(exit.x-b.x)/d*2.8*dt,(exit.z-b.z)/d*2.8*dt,walls)}continue}
+  if(b.networkHuman||b.hp<=0||b.stun>0||b.knockup>0)continue;if(b.hp<80&&b.inventory.length&&game.world.exits.length)b.state='extract';if(b.state==='extract'){const exit=game.world.exits[0];if(!exit){b.state='hunt';continue}const d=dist(b,exit);if(d<3){b.extractProgress=(b.extractProgress||0)+dt;if(b.extractProgress>=3){b.hp=0;b.extracted=true;game.world.exits.shift();if(game.nextExitAt===null)game.nextExitAt=game.time+300;game.emit('toast',{text:'一名猎手已撤离，5分钟后中央刷新法阵'})}}else{b.extractProgress=0;move(b,(exit.x-b.x)/d*2.8*dt,(exit.z-b.z)/d*2.8*dt,walls)}continue}
   b.botCd=Math.max(0,b.botCd-dt);
-  const target=b.state==='hunt'?game.player:game.enemies.filter(e=>!e.bot&&e.type!=='boss'&&e.hp>0&&dist(e,b)<13).sort((a,c)=>dist(a,b)-dist(c,b))[0];
+  const target=b.state==='hunt'?[game.player,...(game.bots||[]).filter(e=>e.networkHuman&&e.hp>0)].filter(e=>e.hp>0).sort((a,c)=>dist(a,b)-dist(c,b))[0]:game.enemies.filter(e=>!e.bot&&e.type!=='boss'&&e.hp>0&&dist(e,b)<13).sort((a,c)=>dist(a,b)-dist(c,b))[0];
   b.combatTarget=target;if(b.botWindup){const w=b.botWindup;b.charge=Math.max(0,w.at-game.time);if(game.time>=w.at){b.botWindup=null;b.botCd=1.8;b.botRecoveryUntil=game.time+.35;const t=w.target;if(t.hp>0&&dist(b,t)<3&&lineClear(b,t,walls)){game.damageSource=b;try{game.hurt(t,28+(getEquipmentStats(b.equipment,'swordsman').atk||0))}finally{game.damageSource=null}}}continue}
   if(b.botRecoveryUntil>game.time)continue;let destination=target;
   if(target&&dist(b,target)<2.4&&lineClear(b,target,walls)){if(b.botCd<=0){b.botWindup={target,at:game.time+.55};b.charge=.55;b.chargeEndsAt=game.time+.55}continue}

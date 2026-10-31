@@ -1,0 +1,8 @@
+data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.env
+tests/.tmp/
+__pycache__/
+*.pyc

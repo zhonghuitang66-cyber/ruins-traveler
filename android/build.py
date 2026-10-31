@@ -1,4 +1,4 @@
-"""Build offline debug APK with installed Android build tools, no Gradle/network."""
+"""Build APK with installed Android tools. Assets stay local; online is optional."""
 from pathlib import Path
 import os,sys,subprocess,zipfile,shutil,json,hashlib
 android=Path(__file__).resolve().parent;project=android.parent
@@ -35,7 +35,7 @@ with zipfile.ZipFile(classesjar,'w') as z:
  for p in classes.rglob('*.class'):z.write(p,p.relative_to(classes).as_posix())
 run([java/'java.exe','-cp',tools/'lib/d8.jar','com.android.tools.r8.D8','--min-api','24','--lib',jar,'--output',work,classesjar])
 unsigned=work/'unsigned.apk'
-run([tools/'aapt.exe','package','-f','-M',android/'AndroidManifest.xml','-I',jar,'-A',work/'assets','-F',unsigned])
+run([tools/'aapt.exe','package','-f','-M',android/'AndroidManifest.xml','-I',jar,'-S',android/'res','-A',work/'assets','-F',unsigned])
 with zipfile.ZipFile(unsigned,'a',compression=zipfile.ZIP_DEFLATED) as z:z.write(work/'classes.dex','classes.dex')
 aligned=work/'aligned.apk';run([tools/'zipalign.exe','-f','4',unsigned,aligned])
 keystore=work/'debug.keystore'
@@ -46,5 +46,5 @@ run([java/'java.exe','-jar',tools/'lib/apksigner.jar','verify','--verbose',apk])
 with zipfile.ZipFile(apk) as packaged:
  packaged_models=sorted(n.removeprefix('assets/web/assets/models/') for n in packaged.namelist() if n.startswith('assets/web/assets/models/'))
  if packaged_models!=sorted(model_allowlist):raise SystemExit('Packaged model allowlist mismatch')
-report={'apk':str(apk),'bytes':apk.stat().st_size,'sha256':hashlib.sha256(apk.read_bytes()).hexdigest(),'offline':True,'debug_signature':True,'included_models':packaged_models,'excluded_assets':['assets/references/','all assets/models/ entries except included_models'],'excluded_docs':'*.md'}
+report={'apk':str(apk),'bytes':apk.stat().st_size,'sha256':hashlib.sha256(apk.read_bytes()).hexdigest(),'offline_play':True,'optional_online_origin':'https://114.66.36.160:9443','debug_signature':True,'included_models':packaged_models,'excluded_assets':['assets/references/','all assets/models/ entries except included_models'],'excluded_docs':'*.md'}
 (out/'build-report.json').write_text(json.dumps(report,indent=2),'utf-8');print(json.dumps(report),flush=True)
