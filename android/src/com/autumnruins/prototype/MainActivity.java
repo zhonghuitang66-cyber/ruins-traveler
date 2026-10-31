@@ -21,7 +21,7 @@ public final class MainActivity extends Activity {
         super.onCreate(saved);getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON|WindowManager.LayoutParams.FLAG_FULLSCREEN);immersive();
         web=new WebView(this);web.setBackgroundColor(0xffd6b46c);setContentView(web);
         WebSettings s=web.getSettings();s.setJavaScriptEnabled(true);s.setDomStorageEnabled(true);
-        s.setUserAgentString(s.getUserAgentString()+" RuinsTravelerAndroid/0.3.0");
+        s.setUserAgentString(s.getUserAgentString()+" RuinsTravelerAndroid/0.3.1");
         s.setAllowFileAccess(false);s.setAllowContentAccess(false);s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
         s.setMediaPlaybackRequiresUserGesture(true);s.setSupportZoom(false);
         web.setWebChromeClient(new WebChromeClient(){

@@ -4,6 +4,8 @@ Three.js 搜打撤游戏，支持离线试玩与 Android 双人联机。三位�
 
 ## 下载与游玩
 
+v0.3.1新增手机布局适配：出发按钮使用独立固定区域，角色信息与联机设置可滚动，适配安全区、横竖屏和软键盘可见高度。详见[适配范围](docs/mobile-layout.md)。
+
 [下载最新版 Android APK](https://github.com/zhonghuitang66-cyber/ruins-traveler/releases/latest/download/ruins-traveler.apk) · [版本说明](https://github.com/zhonghuitang66-cyber/ruins-traveler/releases) · [网页离线试玩](http://114.66.36.160:9088/) · [下载页](http://114.66.36.160:9088/downloads/)
 
 ![扫码下载 Android APK](docs/download-qr.png)
