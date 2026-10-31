@@ -18,6 +18,91 @@
       "triangles": 4510,
       "bones": 45,
       "sha256": "fff2ea27e98e31d370ac6fb8c1b562f7a428b20dd96c6efbc33e2216519ae8b6"
+    },
+    "hammer": {
+      "approved": true,
+      "url": "hammer.glb",
+      "height": 2.1,
+      "yawRadians": -1.5707963267948966,
+      "clips": {
+        "idle": "idle",
+        "run": "run",
+        "attack": "monster_attack_local",
+        "charge": "monster_charge_local"
+      },
+      "source": "Tripo P2 real front/left/back; idle/run Tripo presets; attack/charge locally authored skeleton clips",
+      "quality": "prototype playable; not final weapon-grip or performance approval",
+      "triangles": 4437,
+      "bones": 45,
+      "sha256": "78c4e2079c3d5ac692c792c8f91cab943a93d6d6785981b87add0940fc1f2715"
+    },
+    "spear": {
+      "approved": true,
+      "url": "spear.glb",
+      "height": 2.1,
+      "yawRadians": -1.5707963267948966,
+      "clips": {
+        "idle": "idle",
+        "run": "run",
+        "attack": "monster_attack_local",
+        "charge": "monster_charge_local"
+      },
+      "source": "Tripo P2 real front/left/back; idle/run Tripo presets; attack/charge locally authored skeleton clips",
+      "quality": "prototype playable; not final weapon-grip or performance approval",
+      "triangles": 4401,
+      "bones": 45,
+      "sha256": "f6bde65422e57a78f9d215d00ebc8474c152ffd28d9121b9375cdc4d65006c08"
+    },
+    "bow": {
+      "approved": true,
+      "url": "bow.glb",
+      "height": 2.1,
+      "yawRadians": -1.5707963267948966,
+      "clips": {
+        "idle": "idle",
+        "run": "run",
+        "attack": "monster_attack_local",
+        "charge": "monster_charge_local"
+      },
+      "source": "Tripo P2 real front/left/back; idle/run Tripo presets; attack/charge locally authored skeleton clips",
+      "quality": "prototype playable; not final weapon-grip or performance approval",
+      "triangles": 4950,
+      "bones": 45,
+      "sha256": "bc22b27b199e9b27a44255ffe2c5fa38de8b69fbf348266b0dfe041f9464741b"
+    },
+    "boss": {
+      "approved": true,
+      "url": "boss.glb",
+      "height": 4.4,
+      "yawRadians": -1.5707963267948966,
+      "clips": {
+        "idle": "idle",
+        "run": "run",
+        "attack": "monster_attack_local",
+        "charge": "monster_charge_local"
+      },
+      "source": "Tripo P2 real front/left/back; idle/run Tripo presets; attack/charge locally authored skeleton clips",
+      "quality": "prototype playable; not final weapon-grip or performance approval",
+      "triangles": 4677,
+      "bones": 45,
+      "sha256": "ad0e3d6819e878b179bd3c4259d18ad9a4dd1f689e60cb98dde6fb8ee30542c5"
+    },
+    "mage": {
+      "approved": true,
+      "url": "mage.glb",
+      "height": 2.1,
+      "yawRadians": -1.5707963267948966,
+      "clips": {
+        "idle": "idle",
+        "run": "run",
+        "attack": "monster_attack_local",
+        "charge": "monster_charge_local"
+      },
+      "source": "Tripo P2 real front/left/back; idle/run Tripo presets; attack/charge locally authored skeleton clips",
+      "quality": "prototype playable; not final weapon-grip or performance approval",
+      "triangles": 4664,
+      "bones": 45,
+      "sha256": "17e450b485515c98957158c0239a7575f7c0f26e81527082c68e1825d6787fe9"
     }
   }
 }

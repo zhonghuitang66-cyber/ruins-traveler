@@ -1,0 +1,179 @@
+{
+  "game": "遗迹旅人",
+  "version": "0.2.0",
+  "date": "2026-10-31",
+  "apkBytes": 61950313,
+  "apkSha256": "e65175cb76e83e43eac91ba7636437fb84e8f1373eb12e6042a14893a2af3bed",
+  "devicePackageMatches": true,
+  "sameSignatureReplacement": true,
+  "noUninstallOrDataClear": true,
+  "automaticTests": {
+    "passed": 389,
+    "failed": 0
+  },
+  "runtimeResources": {
+    "count": 258,
+    "mismatches": 0
+  },
+  "mumuRealModelParse": {
+    "loaded": [
+      "hammer",
+      "sword",
+      "spear",
+      "bow",
+      "boss",
+      "mage"
+    ],
+    "failed": [],
+    "details": [
+      {
+        "type": "hammer",
+        "joints": 45,
+        "clips": [
+          "idle",
+          "run",
+          "monster_attack_local",
+          "monster_charge_local"
+        ]
+      },
+      {
+        "type": "sword",
+        "joints": 45,
+        "clips": [
+          "idle",
+          "run",
+          "monster_attack_local",
+          "monster_charge_local"
+        ]
+      },
+      {
+        "type": "spear",
+        "joints": 45,
+        "clips": [
+          "idle",
+          "run",
+          "monster_attack_local",
+          "monster_charge_local"
+        ]
+      },
+      {
+        "type": "bow",
+        "joints": 45,
+        "clips": [
+          "idle",
+          "run",
+          "monster_attack_local",
+          "monster_charge_local"
+        ]
+      },
+      {
+        "type": "boss",
+        "joints": 45,
+        "clips": [
+          "idle",
+          "run",
+          "monster_attack_local",
+          "monster_charge_local"
+        ]
+      },
+      {
+        "type": "mage",
+        "joints": 45,
+        "clips": [
+          "idle",
+          "run",
+          "monster_attack_local",
+          "monster_charge_local"
+        ]
+      }
+    ]
+  },
+  "consoleErrors": 0,
+  "modelAssetAudit": [
+    {
+      "type": "sword",
+      "bytes": 2214080,
+      "bones": 45,
+      "animations": [
+        "idle",
+        "run",
+        "monster_attack_local",
+        "monster_charge_local"
+      ],
+      "sha256": "fff2ea27e98e31d370ac6fb8c1b562f7a428b20dd96c6efbc33e2216519ae8b6"
+    },
+    {
+      "type": "hammer",
+      "bytes": 2053740,
+      "bones": 45,
+      "animations": [
+        "idle",
+        "run",
+        "monster_attack_local",
+        "monster_charge_local"
+      ],
+      "sha256": "78c4e2079c3d5ac692c792c8f91cab943a93d6d6785981b87add0940fc1f2715"
+    },
+    {
+      "type": "spear",
+      "bytes": 2217516,
+      "bones": 45,
+      "animations": [
+        "idle",
+        "run",
+        "monster_attack_local",
+        "monster_charge_local"
+      ],
+      "sha256": "f6bde65422e57a78f9d215d00ebc8474c152ffd28d9121b9375cdc4d65006c08"
+    },
+    {
+      "type": "bow",
+      "bytes": 2210588,
+      "bones": 45,
+      "animations": [
+        "idle",
+        "run",
+        "monster_attack_local",
+        "monster_charge_local"
+      ],
+      "sha256": "bc22b27b199e9b27a44255ffe2c5fa38de8b69fbf348266b0dfe041f9464741b"
+    },
+    {
+      "type": "boss",
+      "bytes": 2284000,
+      "bones": 45,
+      "animations": [
+        "idle",
+        "run",
+        "monster_attack_local",
+        "monster_charge_local"
+      ],
+      "sha256": "ad0e3d6819e878b179bd3c4259d18ad9a4dd1f689e60cb98dde6fb8ee30542c5"
+    },
+    {
+      "type": "mage",
+      "bytes": 1985132,
+      "bones": 45,
+      "animations": [
+        "idle",
+        "run",
+        "monster_attack_local",
+        "monster_charge_local"
+      ],
+      "sha256": "17e450b485515c98957158c0239a7575f7c0f26e81527082c68e1825d6787fe9"
+    }
+  ],
+  "firstLocalCommit": "08030023c5174cac6592470b4b0df5baa5288357",
+  "firstCommitTime": "2026-10-31T16:08:24+08:00",
+  "paidGeneration": {
+    "TripoTasks": 18,
+    "TripoCredits": 930,
+    "TripoBalanceAfter": 730,
+    "newFriendlyAnimationCredits": 0
+  },
+  "limits": [
+    "只读启动与真实GLTF解码，不等于完整战斗/触控/主观听感验收",
+    "法师帽/披风及部分握持仍属原型优化",
+    "GitHub远程仓库与Glowin邀请尚未完成，待可用仓库入口"
+  ]
+}
